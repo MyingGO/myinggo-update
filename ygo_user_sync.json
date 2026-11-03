@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:57:41",
+  "updated_at": "2026-11-03 16:57:44",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4498,7 +4498,7 @@
               "name": "Chaospawn Bishop"
             }
           ],
-          "x": 1701,
+          "x": 1664,
           "y": 682
         }
       ],
@@ -4587,12 +4587,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793699859780
+      "updatedAt": 1793699862940
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "85272c610de3b14d52312de589349cf68d6d1ce6"
+  "content_hash": "9c6f812ea681779aa10fd83817b7577890f224d2"
 }
