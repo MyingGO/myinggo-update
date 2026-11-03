@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:52:48",
+  "updated_at": "2026-11-03 16:52:52",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4378,6 +4378,16 @@
               "id": 42410161,
               "name": "Angelechy Shatranga",
               "pos": "atk"
+            },
+            {
+              "id": 81797573,
+              "name": "Angelechy Enlisted",
+              "pos": "atk"
+            },
+            {
+              "id": 28904860,
+              "name": "Angelechy Bastion",
+              "pos": "atk"
             }
           ],
           "fieldZones": {
@@ -4400,9 +4410,21 @@
             "mmz2": [],
             "mmz3": [],
             "mmz4": [],
-            "mmz5": [],
+            "mmz5": [
+              {
+                "id": 81797573,
+                "name": "Angelechy Enlisted",
+                "pos": "atk"
+              }
+            ],
             "stz1": [],
-            "stz2": [],
+            "stz2": [
+              {
+                "id": 28904860,
+                "name": "Angelechy Bastion",
+                "pos": "atk"
+              }
+            ],
             "stz3": [],
             "stz4": [],
             "stz5": [],
@@ -4486,12 +4508,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793699565589
+      "updatedAt": 1793699570980
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "4c2cec7efd0eaecb345034422aacb7cc3f902318"
+  "content_hash": "719e8c6403248ce43031534246a6959fa1487ede"
 }
