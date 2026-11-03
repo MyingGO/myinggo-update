@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:57:05",
+  "updated_at": "2026-11-03 16:57:41",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4486,6 +4486,20 @@
           ],
           "x": 1200,
           "y": 682
+        },
+        {
+          "id": "nmw0il1l0gcl",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B2: Special Summon",
+          "cards": [
+            {
+              "id": 24780790,
+              "name": "Chaospawn Bishop"
+            }
+          ],
+          "x": 1701,
+          "y": 682
         }
       ],
       "edges": [
@@ -4565,14 +4579,20 @@
           "to": "nmw0ik904yck",
           "label": "Normal Summon",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0ik904yck",
+          "to": "nmw0il1l0gcl",
+          "label": "Special Summon",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793699822740
+      "updatedAt": 1793699859780
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "fcb1984509de8a7c885906878d02b94f28fcc4ff"
+  "content_hash": "85272c610de3b14d52312de589349cf68d6d1ce6"
 }
