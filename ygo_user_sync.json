@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:47:41",
+  "updated_at": "2026-11-03 16:47:53",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4222,15 +4222,36 @@
           ],
           "x": 84,
           "y": 32
+        },
+        {
+          "id": "nmw0i8fhg1zf",
+          "role": "step",
+          "starterId": "nmw0i85rwxsm",
+          "title": "B1: Synchro Summon",
+          "cards": [
+            {
+              "id": 86673403,
+              "name": "Angelechy Seneschal"
+            }
+          ],
+          "x": 585,
+          "y": 32
         }
       ],
-      "edges": [],
-      "updatedAt": 1793699258684
+      "edges": [
+        {
+          "from": "nmw0i85rwxsm",
+          "to": "nmw0i8fhg1zf",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        }
+      ],
+      "updatedAt": 1793699271268
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "03ec2bcbb1eda1f3df98cace3f0c71f0ffab85d8"
+  "content_hash": "9179941e0483e91242300ebc765075336ae2b39b"
 }
