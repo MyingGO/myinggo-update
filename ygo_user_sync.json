@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:09:38",
+  "updated_at": "2026-11-03 17:09:41",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4737,8 +4737,8 @@
               "name": "Angelechy Enlisted"
             }
           ],
-          "x": 4485,
-          "y": 1174
+          "x": 4494,
+          "y": 1405
         }
       ],
       "edges": [
@@ -4945,12 +4945,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700576540
+      "updatedAt": 1793700580900
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "3458558f68749a74179c653c000700016c8e9ead"
+  "content_hash": "63e2d4e17910e0fe7888984aad601f47bc25fb76"
 }
