@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:24:42",
+  "updated_at": "2026-11-03 16:25:00",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -216,6 +216,15 @@
         67809530
       ],
       "side": []
+    },
+    {
+      "id": "d1793697898325",
+      "name": "Angelechy",
+      "format": "ae",
+      "main": [],
+      "extra": [],
+      "side": [],
+      "updatedAt": 1793697898325
     }
   ],
   "maps": [
@@ -4118,5 +4127,5 @@
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "0009f760640b667dfa341d02726eb9b041f8170b"
+  "content_hash": "9f2f259eefb3ba16ead11610270fb583b570fb07"
 }
