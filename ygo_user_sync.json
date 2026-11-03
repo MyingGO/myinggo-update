@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:00:21",
+  "updated_at": "2026-11-03 17:01:01",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4542,6 +4542,20 @@
           ],
           "x": 2482,
           "y": 974
+        },
+        {
+          "id": "nmw0ipcgc615",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B6: Úp bài (Set)",
+          "cards": [
+            {
+              "id": 55393975,
+              "name": "Angelechy Destrier"
+            }
+          ],
+          "x": 2983,
+          "y": 974
         }
       ],
       "edges": [
@@ -4660,14 +4674,20 @@
           "to": "nmw0ioev0s9r",
           "label": "Special Summon",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0ioev0s9r",
+          "to": "nmw0ipcgc615",
+          "label": "Úp bài (Set)",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700020028
+      "updatedAt": 1793700060492
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "3dce2d9ea472150bc956799448cabea0a4fb6d96"
+  "content_hash": "ee44b060e6f7e35cd795ab6d5915dc8c8a97bea8"
 }
