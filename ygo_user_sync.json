@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:07:56",
+  "updated_at": "2026-11-03 17:08:26",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4591,12 +4591,7 @@
           "role": "step",
           "starterId": "nmw0ik0okxmb",
           "title": "B9: Gửi xuống Mộ",
-          "cards": [
-            {
-              "id": 54171327,
-              "name": "Angelechy Disturbance"
-            }
-          ],
+          "cards": [],
           "x": 3484,
           "y": 1174
         },
@@ -4885,12 +4880,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700475044
+      "updatedAt": 1793700504892
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "bc8dc1df003819c2f87966987fc78341a4fb0649"
+  "content_hash": "d256db9031f744a78c0d229bb7ed2d654ebf2c14"
 }
