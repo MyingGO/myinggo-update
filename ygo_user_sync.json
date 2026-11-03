@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:59:32",
+  "updated_at": "2026-11-03 16:59:35",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4605,14 +4605,23 @@
           "to": "nmw0inc506a5",
           "label": "Synchro Summon",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0ik904yck",
+          "to": "nmw0inc506a5",
+          "label": "Hội tụ về nhánh chính",
+          "sub": "",
+          "kind": "converge",
+          "fromPort": "bottom",
+          "toPort": "top"
         }
       ],
-      "updatedAt": 1793699970964
+      "updatedAt": 1793699974140
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "acbd8c3f0261624dc3f62c987edf4f0ee30fe9de"
+  "content_hash": "8124c706e2756b049f882abe933c8b99daf8d3fe"
 }
