@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:05:59",
+  "updated_at": "2026-11-03 17:06:18",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4641,6 +4641,20 @@
           ],
           "x": 4504,
           "y": 975
+        },
+        {
+          "id": "nmw0iw3rw5pl",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B13: Úp bài (Set)",
+          "cards": [
+            {
+              "id": 28904860,
+              "name": "Angelechy Bastion"
+            }
+          ],
+          "x": 4486,
+          "y": 1175
         }
       ],
       "edges": [
@@ -4803,14 +4817,20 @@
           "kind": "normal",
           "sub": "",
           "route": "curve"
+        },
+        {
+          "from": "nmw0iuw304sd",
+          "to": "nmw0iw3rw5pl",
+          "label": "Úp bài (Set)",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700357587
+      "updatedAt": 1793700375837
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "eaed587fbc471be8322816fd3a5d86526e2c7015"
+  "content_hash": "da6b7b8ffbd75499588b5487c18bf624f44d3483"
 }
