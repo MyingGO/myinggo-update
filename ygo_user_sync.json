@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:58:21",
+  "updated_at": "2026-11-03 16:59:29",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4500,6 +4500,20 @@
           ],
           "x": 1685,
           "y": 684
+        },
+        {
+          "id": "nmw0inc506a5",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B3: Synchro Summon",
+          "cards": [
+            {
+              "id": 32044675,
+              "name": "Glitch Clutch Nullgainer"
+            }
+          ],
+          "x": 2186,
+          "y": 684
         }
       ],
       "edges": [
@@ -4585,14 +4599,20 @@
           "to": "nmw0il1l0gcl",
           "label": "Special Summon",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0il1l0gcl",
+          "to": "nmw0inc506a5",
+          "label": "Synchro Summon",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793699900467
+      "updatedAt": 1793699966772
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "30eb47e301d6bdeb542f1bfb485e6334913ca502"
+  "content_hash": "7ed5c36955f110c7332e9b2a94d86692225d4907"
 }
