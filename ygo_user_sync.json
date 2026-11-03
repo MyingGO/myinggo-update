@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:11:10",
+  "updated_at": "2026-11-03 17:11:13",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4985,8 +4985,8 @@
           "kind": "normal",
           "mergeId": "mg_mw0j26wc2j8",
           "sub": "",
-          "bendX": 135,
-          "bendY": -54
+          "bendX": -99,
+          "bendY": -66
         },
         {
           "from": "nmw0inc506a5",
@@ -4996,16 +4996,16 @@
           "kind": "normal",
           "fromPort": "right",
           "mergeId": "mg_mw0j26wc2j8",
-          "bendX": 135,
-          "bendY": -54
+          "bendX": -99,
+          "bendY": -66
         }
       ],
-      "updatedAt": 1793700669100
+      "updatedAt": 1793700671780
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "62583f7ec56b1d23e556c307c54d7b79599f4861"
+  "content_hash": "586f8e5f3e029ab3eaf96c5b60ffcff2597d2fe5"
 }
