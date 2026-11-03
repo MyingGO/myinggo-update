@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:01:51",
+  "updated_at": "2026-11-03 17:01:54",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4570,20 +4570,6 @@
           ],
           "x": 2983,
           "y": 1174
-        },
-        {
-          "id": "nmw0iqdslv4t",
-          "role": "step",
-          "starterId": "nmw0ik0okxmb",
-          "title": "B8: Special Summon",
-          "cards": [
-            {
-              "id": 27198002,
-              "name": "Fox Token"
-            }
-          ],
-          "x": 2982,
-          "y": 1374
         }
       ],
       "edges": [
@@ -4714,20 +4700,14 @@
           "to": "nmw0ipgwcw02",
           "label": "Úp bài (Set)",
           "kind": "normal"
-        },
-        {
-          "from": "nmw0ioev0s9r",
-          "to": "nmw0iqdslv4t",
-          "label": "Special Summon",
-          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700108885
+      "updatedAt": 1793700112396
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "712acb4fa89e5f7f207dcd2a4c31d14f5b6d6583"
+  "content_hash": "e729b1a2812ecdf6bd0ef915b2fa317ae5bfa925"
 }
