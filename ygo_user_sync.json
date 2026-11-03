@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:56:43",
+  "updated_at": "2026-11-03 16:56:54",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4458,6 +4458,20 @@
           "x": -92,
           "y": -153,
           "note": ""
+        },
+        {
+          "id": "nmw0ik0okxmb",
+          "role": "starter",
+          "starterId": "nmw0ik0okxmb",
+          "title": "Starter 2: Chaospawn Bishop",
+          "cards": [
+            {
+              "id": 24780790,
+              "name": "Chaospawn Bishop"
+            }
+          ],
+          "x": 699,
+          "y": 682
         }
       ],
       "edges": [
@@ -4533,12 +4547,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793699580292
+      "updatedAt": 1793699811956
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "cfc92bda3a7da0983d449db7c99de4d26aac3ac3"
+  "content_hash": "d7e6efb88c3ee6a12da922be49109a6188059ac8"
 }
