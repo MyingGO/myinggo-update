@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:19:00",
+  "updated_at": "2026-11-03 17:19:12",
   "built_decks": [
     {
       "id": "d1793633684237",
@@ -316,7 +316,7 @@
       "id": "m1793634680168",
       "name_vi": "Combo: RED DRAGON ARCHFIEND",
       "name_en": "Combo: RED DRAGON ARCHFIEND",
-      "deckId": "d1793612044476",
+      "deckId": "d1793697907945",
       "nodes": [
         {
           "id": "nmvzfsbc3s9h",
@@ -2516,7 +2516,7 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793697712901
+      "updatedAt": 1793701150321
     },
     {
       "id": "m1793609831014",
@@ -5184,5 +5184,5 @@
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "0ce25a822f920ae6764441df640e4738090730bc"
+  "content_hash": "edd0bd77f7599cc9f7279886c067eeb582c0a632"
 }
