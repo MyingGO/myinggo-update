@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:03:26",
+  "updated_at": "2026-11-03 17:04:02",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4599,6 +4599,20 @@
           ],
           "x": 3484,
           "y": 1174
+        },
+        {
+          "id": "nmw0it7780cj",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B10: Search lên tay",
+          "cards": [
+            {
+              "id": 13068112,
+              "name": "Angelechy Strategy Score"
+            }
+          ],
+          "x": 3484,
+          "y": 974
         }
       ],
       "edges": [
@@ -4741,14 +4755,20 @@
           "to": "nmw0isfroxzu",
           "label": "Gửi xuống Mộ",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0ipcgc615",
+          "to": "nmw0it7780cj",
+          "label": "Search lên tay",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700204756
+      "updatedAt": 1793700240308
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "85ad852143d11a77ee1a1da5e7cf3e9500dff1a1"
+  "content_hash": "65a3d963300745ad4ede7cd27cd2b3099531189a"
 }
