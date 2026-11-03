@@ -1,0 +1,2283 @@
+{
+  "version": 2,
+  "updated_at": "2026-11-03 15:12:42",
+  "built_decks": [
+    {
+      "id": "d1793633684237",
+      "name": "RED DRAGON ARCHFIEND",
+      "format": "none",
+      "main": [
+        32731036,
+        70088809,
+        70088809,
+        70088809,
+        33854624,
+        19434243,
+        19434243,
+        19434243,
+        25784595,
+        25784595,
+        25784595,
+        67750322,
+        42141493,
+        42141493,
+        42141493,
+        83445539,
+        83445539,
+        62991792,
+        62991792,
+        62991792,
+        14558127,
+        14558127,
+        14558127,
+        34761841,
+        98396890,
+        13764881,
+        77360173,
+        94145021,
+        99398682,
+        98173209,
+        98173209,
+        98173209,
+        65681983,
+        23008320,
+        23008320,
+        32756828,
+        40366667,
+        40366667,
+        40366667,
+        50056656
+      ],
+      "extra": [
+        66141736,
+        66141736,
+        9753964,
+        27572350,
+        99585850,
+        30698243,
+        63436931,
+        29053656,
+        65541655,
+        93125329,
+        4891376,
+        3294539,
+        70902743,
+        87451661,
+        67809530
+      ],
+      "side": []
+    }
+  ],
+  "maps": [
+    {
+      "id": "m1793634680168",
+      "name_vi": "Combo: RED DRAGON ARCHFIEND",
+      "name_en": "Combo: RED DRAGON ARCHFIEND",
+      "deckId": "d1793633684237",
+      "nodes": [
+        {
+          "id": "nmvzfsbc3s9h",
+          "role": "starter",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "Starter 1: Power Vice Dragon",
+          "cards": [
+            {
+              "id": 19434243,
+              "name": "Power Vice Dragon"
+            }
+          ],
+          "x": 699,
+          "y": 174
+        },
+        {
+          "id": "nmvzfsnryseo",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B1: Search lên tay",
+          "cards": [
+            {
+              "id": 83445539,
+              "name": "Darkness Resonator"
+            }
+          ],
+          "x": 1195,
+          "y": -141
+        },
+        {
+          "id": "nmvzhgoklvhg",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B2: Special Summon",
+          "cards": [
+            {
+              "id": 83445539,
+              "name": "Darkness Resonator"
+            }
+          ],
+          "x": 1653,
+          "y": -147
+        },
+        {
+          "id": "nmvzijjf9tqm",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B3: Synchro Summon",
+          "cards": [
+            {
+              "id": 67809530,
+              "name": "The Crimson King"
+            }
+          ],
+          "x": 1669,
+          "y": 430
+        },
+        {
+          "id": "nmvzjrvtglhy",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B4: Search lên tay",
+          "cards": [
+            {
+              "id": 98173209,
+              "name": "Crimson Gaia"
+            }
+          ],
+          "x": 2170,
+          "y": 430
+        },
+        {
+          "id": "nmvzjsbsnzq5",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B5: Search lên tay",
+          "cards": [
+            {
+              "id": 99398682,
+              "name": "Crimson Call"
+            }
+          ],
+          "x": 2671,
+          "y": 430
+        },
+        {
+          "id": "nmvzjswnwxov",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B6: Search lên tay",
+          "cards": [
+            {
+              "id": 13764881,
+              "name": "Chain Resonator"
+            }
+          ],
+          "x": 3172,
+          "y": 429
+        },
+        {
+          "id": "nmvzjuehfbrg",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B7: Normal Summon",
+          "cards": [
+            {
+              "id": 13764881,
+              "name": "Chain Resonator"
+            }
+          ],
+          "x": 3673,
+          "y": 429
+        },
+        {
+          "id": "nmvzjuxop73f",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B8: Special Summon",
+          "cards": [
+            {
+              "id": 34761841,
+              "name": "Crimson Resonator"
+            }
+          ],
+          "x": 4174,
+          "y": 429
+        },
+        {
+          "id": "nmvzjvo809xr",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B9: Synchro Summon",
+          "cards": [
+            {
+              "id": 9753964,
+              "name": "Hot Red Dragon Archfiend Abyss"
+            }
+          ],
+          "x": 3074,
+          "y": -1059
+        },
+        {
+          "id": "nmvzkf6jrrrd",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B10: Special Summon",
+          "cards": [
+            {
+              "id": 77360173,
+              "name": "Synkron Resonator"
+            }
+          ],
+          "x": 4638,
+          "y": 223
+        },
+        {
+          "id": "nmvzkfdlfqba",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B11: Special Summon",
+          "cards": [
+            {
+              "id": 62991792,
+              "name": "Soul Resonator"
+            }
+          ],
+          "x": 4647,
+          "y": 555
+        },
+        {
+          "id": "nmvzkfut5iiz",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B12: Search lên tay",
+          "cards": [
+            {
+              "id": 25784595,
+              "name": "Bone Archfiend"
+            }
+          ],
+          "x": 5148,
+          "y": 555
+        },
+        {
+          "id": "nmvzkh0ft8ae",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B13: Special Summon",
+          "cards": [
+            {
+              "id": 25784595,
+              "name": "Bone Archfiend"
+            }
+          ],
+          "x": 5591,
+          "y": 546,
+          "note": "tăng 1 lv"
+        },
+        {
+          "id": "nmvzkhpvh15p",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B14: Gửi xuống Mộ",
+          "cards": [
+            {
+              "id": 98396890,
+              "name": "Vision Resonator"
+            }
+          ],
+          "x": 6092,
+          "y": 546
+        },
+        {
+          "id": "nmvzlb9w0754",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B15: Search lên tay",
+          "cards": [
+            {
+              "id": 50056656,
+              "name": "Red Zone"
+            }
+          ],
+          "x": 6593,
+          "y": 546
+        },
+        {
+          "id": "nmvzlbzc7ixx",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B16: Synchro Summon",
+          "cards": [
+            {
+              "id": 66141736,
+              "name": "Red Rising Dragon"
+            }
+          ],
+          "x": 5450,
+          "y": 160
+        },
+        {
+          "id": "nmvzldkxofyu",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B17: Search lên tay",
+          "cards": [
+            {
+              "id": 98396890,
+              "name": "Vision Resonator"
+            }
+          ],
+          "x": 4474,
+          "y": -180
+        },
+        {
+          "id": "nmvzleilx9fz",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B18: Special Summon",
+          "cards": [
+            {
+              "id": 77360173,
+              "name": "Synkron Resonator"
+            }
+          ],
+          "x": 4807,
+          "y": -188
+        },
+        {
+          "id": "nmvzlf7tfatq",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B19: Synchro Summon",
+          "cards": [
+            {
+              "id": 3294539,
+              "name": "Crimson Blade Dragon"
+            }
+          ],
+          "x": 5810,
+          "y": -186
+        },
+        {
+          "id": "nmvzlfzxfjsq",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B20: Search lên tay",
+          "cards": [
+            {
+              "id": 13764881,
+              "name": "Chain Resonator"
+            }
+          ],
+          "x": 4933,
+          "y": -606
+        },
+        {
+          "id": "nmvzlggc135y",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B21: Search lên tay",
+          "cards": [
+            {
+              "id": 32731036,
+              "name": "The Bystial Lubellion"
+            }
+          ],
+          "x": 5799,
+          "y": -545
+        },
+        {
+          "id": "nmvzlgrg4v7y",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B22: Gửi xuống Mộ",
+          "cards": [
+            {
+              "id": 32731036,
+              "name": "The Bystial Lubellion"
+            }
+          ],
+          "x": 6231,
+          "y": -553
+        },
+        {
+          "id": "nmvzlgwrl2pu",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B23: Search lên tay",
+          "cards": [
+            {
+              "id": 33854624,
+              "name": "Bystial Magnamhut"
+            }
+          ],
+          "x": 6732,
+          "y": -553
+        },
+        {
+          "id": "nmvzlhheqa0a",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B24: Normal Summon",
+          "cards": [
+            {
+              "id": 13764881,
+              "name": "Chain Resonator"
+            }
+          ],
+          "x": 5417,
+          "y": -914
+        },
+        {
+          "id": "nmvzlht0zx71",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B25: Special Summon",
+          "cards": [
+            {
+              "id": 83445539,
+              "name": "Darkness Resonator"
+            }
+          ],
+          "x": 5926,
+          "y": -1013
+        },
+        {
+          "id": "nmvzlijnma1z",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B26: Kích hiệu ứng",
+          "cards": [
+            {
+              "id": 83445539,
+              "name": "Darkness Resonator"
+            }
+          ],
+          "x": 6360,
+          "y": -1223,
+          "note": ""
+        },
+        {
+          "id": "nmvzlk6jmvpt",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B27: Synchro Summon",
+          "cards": [
+            {
+              "id": 30698243,
+              "name": "Red Hypernova Dragon"
+            }
+          ],
+          "x": 7931,
+          "y": 323
+        },
+        {
+          "id": "nmvzlny4ylq4",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B28: Trục xuất",
+          "cards": [
+            {
+              "id": 34761841,
+              "name": "Crimson Resonator"
+            }
+          ],
+          "x": 7233,
+          "y": -553
+        },
+        {
+          "id": "nmvzlo5jccib",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B29: Special Summon",
+          "cards": [
+            {
+              "id": 33854624,
+              "name": "Bystial Magnamhut"
+            }
+          ],
+          "x": 7734,
+          "y": -553
+        },
+        {
+          "id": "nmvzlorrawui",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B30: Kích hiệu ứng",
+          "cards": [
+            {
+              "id": 32731036,
+              "name": "The Bystial Lubellion"
+            }
+          ],
+          "x": 8235,
+          "y": -553
+        },
+        {
+          "id": "nmvzlou0zca3",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B31: Gửi xuống Mộ",
+          "cards": [
+            {
+              "id": 33854624,
+              "name": "Bystial Magnamhut"
+            }
+          ],
+          "x": 8734,
+          "y": -553
+        },
+        {
+          "id": "nmvzlowmujxo",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B32: Special Summon",
+          "cards": [
+            {
+              "id": 32731036,
+              "name": "The Bystial Lubellion"
+            }
+          ],
+          "x": 9237,
+          "y": -553
+        },
+        {
+          "id": "nmvzlpfpz214",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B33: Úp bài (Set)",
+          "cards": [
+            {
+              "id": 32756828,
+              "name": "Branded Beast"
+            }
+          ],
+          "x": 9809,
+          "y": -47
+        },
+        {
+          "id": "nmvzlq5ww5pk",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B34: Special Summon",
+          "cards": [
+            {
+              "id": 98396890,
+              "name": "Vision Resonator"
+            }
+          ],
+          "x": 4567,
+          "y": -1922
+        },
+        {
+          "id": "nmvzlqkxjnu9",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B35: Synchro Summon",
+          "cards": [
+            {
+              "id": 27572350,
+              "name": "Bystial Dis Pater"
+            }
+          ],
+          "x": 9049,
+          "y": -1888
+        },
+        {
+          "id": "nmvzlrmcuj8i",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B36: Special Summon",
+          "cards": [
+            {
+              "id": 34761841,
+              "name": "Crimson Resonator"
+            }
+          ],
+          "x": 9625,
+          "y": -2191
+        },
+        {
+          "id": "nmvzlsb8k2kb",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B37: Synchro Summon",
+          "cards": [
+            {
+              "id": 29053656,
+              "name": "Crimson Dragon Quetzalcoatl"
+            }
+          ],
+          "x": 10596,
+          "y": 58
+        },
+        {
+          "id": "nmvzltvbp20p",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B38: Synchro Summon",
+          "cards": [
+            {
+              "id": 67809530,
+              "name": "The Crimson King"
+            }
+          ],
+          "x": 11099,
+          "y": 60
+        },
+        {
+          "id": "nmvzlu110u6i",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B39: Synchro Summon",
+          "cards": [
+            {
+              "id": 27572350,
+              "name": "Bystial Dis Pater"
+            }
+          ],
+          "x": 11099,
+          "y": 261
+        },
+        {
+          "id": "nmvzlur40rbe",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B40: Search lên tay",
+          "cards": [
+            {
+              "id": 3294539,
+              "name": "Crimson Blade Dragon"
+            }
+          ],
+          "x": 11097,
+          "y": 461
+        },
+        {
+          "id": "nmvzlutum8ru",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B41: Search lên tay",
+          "cards": [
+            {
+              "id": 70088809,
+              "name": "Fydraulis Harmonia"
+            }
+          ],
+          "x": 9409,
+          "y": 289
+        },
+        {
+          "id": "nmvzlwy02y8e",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B42: Úp bài (Set)",
+          "cards": [
+            {
+              "id": 50056656,
+              "name": "Red Zone"
+            }
+          ],
+          "x": 7473,
+          "y": 680
+        },
+        {
+          "id": "nmvzm0o9hwyj",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B43: Trục xuất",
+          "cards": [
+            {
+              "id": 67809530,
+              "name": "The Crimson King"
+            }
+          ],
+          "x": 11600,
+          "y": 60
+        },
+        {
+          "id": "nmvzm0ui8wn2",
+          "role": "step",
+          "starterId": "nmvzfsbc3s9h",
+          "title": "B44: Synchro Summon",
+          "cards": [
+            {
+              "id": 70902743,
+              "name": "Red Dragon Archfiend"
+            }
+          ],
+          "x": 12101,
+          "y": 60
+        },
+        {
+          "id": "fb_mvznav3tphv",
+          "role": "endboard",
+          "isFieldBoard": true,
+          "starterId": "nmvzfsbc3s9h",
+          "title": "🏟️ Sân cuối (Starter 1)",
+          "cards": [
+            {
+              "id": 9753964,
+              "name": "Hot Red Dragon Archfiend Abyss",
+              "pos": "atk"
+            },
+            {
+              "id": 27572350,
+              "name": "Bystial Dis Pater",
+              "pos": "def"
+            },
+            {
+              "id": 3294539,
+              "name": "Crimson Blade Dragon",
+              "pos": "def"
+            },
+            {
+              "id": 29053656,
+              "name": "Crimson Dragon Quetzalcoatl",
+              "pos": "atk"
+            },
+            {
+              "id": 67809530,
+              "name": "The Crimson King",
+              "pos": "atk"
+            },
+            {
+              "id": 30698243,
+              "name": "Red Hypernova Dragon",
+              "pos": "atk"
+            },
+            {
+              "id": 98173209,
+              "name": "Crimson Gaia",
+              "pos": "atk"
+            },
+            {
+              "id": 32756828,
+              "name": "Branded Beast",
+              "pos": "set"
+            },
+            {
+              "id": 50056656,
+              "name": "Red Zone",
+              "pos": "set"
+            },
+            {
+              "id": 70088809,
+              "name": "Fydraulis Harmonia"
+            }
+          ],
+          "fieldZones": {
+            "field": [],
+            "emz1": [
+              {
+                "id": 9753964,
+                "name": "Hot Red Dragon Archfiend Abyss",
+                "pos": "atk"
+              }
+            ],
+            "emz2": [],
+            "gy": [],
+            "mmz1": [
+              {
+                "id": 27572350,
+                "name": "Bystial Dis Pater",
+                "pos": "def"
+              }
+            ],
+            "mmz2": [
+              {
+                "id": 3294539,
+                "name": "Crimson Blade Dragon",
+                "pos": "def"
+              }
+            ],
+            "mmz3": [
+              {
+                "id": 29053656,
+                "name": "Crimson Dragon Quetzalcoatl",
+                "pos": "atk"
+              }
+            ],
+            "mmz4": [
+              {
+                "id": 67809530,
+                "name": "The Crimson King",
+                "pos": "atk"
+              }
+            ],
+            "mmz5": [
+              {
+                "id": 30698243,
+                "name": "Red Hypernova Dragon",
+                "pos": "atk"
+              }
+            ],
+            "stz1": [],
+            "stz2": [
+              {
+                "id": 98173209,
+                "name": "Crimson Gaia",
+                "pos": "atk"
+              }
+            ],
+            "stz3": [
+              {
+                "id": 32756828,
+                "name": "Branded Beast",
+                "pos": "set"
+              }
+            ],
+            "stz4": [
+              {
+                "id": 50056656,
+                "name": "Red Zone",
+                "pos": "set"
+              }
+            ],
+            "stz5": [],
+            "hand": [
+              {
+                "id": 70088809,
+                "name": "Fydraulis Harmonia"
+              }
+            ]
+          },
+          "x": -230,
+          "y": -16,
+          "note": ""
+        },
+        {
+          "id": "nmvznmm3va69",
+          "role": "starter",
+          "starterId": "nmvznmm3va69",
+          "title": "Starter 2: Bone Archfiend",
+          "cards": [
+            {
+              "id": 25784595,
+              "name": "Bone Archfiend"
+            }
+          ],
+          "x": 717,
+          "y": 1032
+        },
+        {
+          "id": "nmvznn8bvpf7",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B1: Special Summon",
+          "cards": [
+            {
+              "id": 25784595,
+              "name": "Bone Archfiend"
+            }
+          ],
+          "x": 1186,
+          "y": 1029,
+          "note": "giam lv"
+        },
+        {
+          "id": "nmvznnvkceys",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B2: Gửi xuống Mộ",
+          "cards": [
+            {
+              "id": 98396890,
+              "name": "Vision Resonator"
+            }
+          ],
+          "x": 1688,
+          "y": 1025
+        },
+        {
+          "id": "nmvznof94we9",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B3: Search lên tay",
+          "cards": [
+            {
+              "id": 98173209,
+              "name": "Crimson Gaia"
+            }
+          ],
+          "x": 2189,
+          "y": 1025
+        },
+        {
+          "id": "nmvznoolu18z",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B4: Search lên tay",
+          "cards": [
+            {
+              "id": 62991792,
+              "name": "Soul Resonator"
+            }
+          ],
+          "x": 2690,
+          "y": 1025
+        },
+        {
+          "id": "nmvznp4etzuu",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B5: Normal Summon",
+          "cards": [
+            {
+              "id": 62991792,
+              "name": "Soul Resonator"
+            }
+          ],
+          "x": 3191,
+          "y": 1023
+        },
+        {
+          "id": "nmvznpd9e0ga",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B6: Search lên tay",
+          "cards": [
+            {
+              "id": 77360173,
+              "name": "Synkron Resonator"
+            }
+          ],
+          "x": 3692,
+          "y": 1025
+        },
+        {
+          "id": "nmvznqen8pq4",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B7: Synchro Summon",
+          "cards": [
+            {
+              "id": 66141736,
+              "name": "Red Rising Dragon"
+            }
+          ],
+          "x": 3093,
+          "y": 1437
+        },
+        {
+          "id": "nmvznrkdynhe",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B8: Special Summon",
+          "cards": [
+            {
+              "id": 98396890,
+              "name": "Vision Resonator"
+            }
+          ],
+          "x": 5032,
+          "y": 1377
+        },
+        {
+          "id": "nmvzns6memwe",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B9: Special Summon",
+          "cards": [
+            {
+              "id": 77360173,
+              "name": "Synkron Resonator"
+            }
+          ],
+          "x": 4189,
+          "y": 1022
+        },
+        {
+          "id": "nmvznsvs9kzq",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B10: Synchro Summon",
+          "cards": [
+            {
+              "id": 3294539,
+              "name": "Crimson Blade Dragon"
+            }
+          ],
+          "x": 4014,
+          "y": 1750
+        },
+        {
+          "id": "nmvznuy0gmeq",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B11: Search lên tay",
+          "cards": [
+            {
+              "id": 62991792,
+              "name": "Soul Resonator"
+            }
+          ],
+          "x": 4690,
+          "y": 1022
+        },
+        {
+          "id": "nmvznviuddut",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B12: Search lên tay",
+          "cards": [
+            {
+              "id": 32731036,
+              "name": "The Bystial Lubellion"
+            }
+          ],
+          "x": 4516,
+          "y": 1750
+        },
+        {
+          "id": "nmvznvv6ms73",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B13: Gửi xuống Mộ",
+          "cards": [
+            {
+              "id": 32731036,
+              "name": "The Bystial Lubellion"
+            }
+          ],
+          "x": 5017,
+          "y": 1750
+        },
+        {
+          "id": "nmvznvyx8vqr",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B14: Search lên tay",
+          "cards": [
+            {
+              "id": 33854624,
+              "name": "Bystial Magnamhut"
+            }
+          ],
+          "x": 5518,
+          "y": 1750
+        },
+        {
+          "id": "nmvznw8by4y0",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B15: Trục xuất",
+          "cards": [
+            {
+              "id": 77360173,
+              "name": "Synkron Resonator"
+            }
+          ],
+          "x": 6019,
+          "y": 1750
+        },
+        {
+          "id": "nmvznwbjjs4q",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B16: Special Summon",
+          "cards": [
+            {
+              "id": 33854624,
+              "name": "Bystial Magnamhut"
+            }
+          ],
+          "x": 6517,
+          "y": 1746
+        },
+        {
+          "id": "nmvznwytraib",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B17: Gửi xuống Mộ",
+          "cards": [
+            {
+              "id": 33854624,
+              "name": "Bystial Magnamhut"
+            }
+          ],
+          "x": 7018,
+          "y": 1746
+        },
+        {
+          "id": "nmvznx585ala",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B18: Special Summon",
+          "cards": [
+            {
+              "id": 32731036,
+              "name": "The Bystial Lubellion"
+            }
+          ],
+          "x": 7519,
+          "y": 1746
+        },
+        {
+          "id": "nmvznxivua5i",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B19: Search lên tay",
+          "cards": [
+            {
+              "id": 70088809,
+              "name": "Fydraulis Harmonia"
+            }
+          ],
+          "x": 7118,
+          "y": 2112
+        },
+        {
+          "id": "nmvzny6d1gky",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B20: Đặt/Úp từ Deck",
+          "cards": [
+            {
+              "id": 32756828,
+              "name": "Branded Beast"
+            }
+          ],
+          "x": 8020,
+          "y": 1746
+        },
+        {
+          "id": "nmvznz5fzu45",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B21: Synchro Summon",
+          "cards": [
+            {
+              "id": 27572350,
+              "name": "Bystial Dis Pater"
+            }
+          ],
+          "x": 6163,
+          "y": 1258
+        },
+        {
+          "id": "nmvzo078dkh1",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B22: Special Summon",
+          "cards": [
+            {
+              "id": 77360173,
+              "name": "Synkron Resonator"
+            }
+          ],
+          "x": 5316,
+          "y": 1000
+        },
+        {
+          "id": "nmvzo0olxjz5",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B23: Synchro Summon",
+          "cards": [
+            {
+              "id": 67809530,
+              "name": "The Crimson King"
+            }
+          ],
+          "x": 4876,
+          "y": 2334
+        },
+        {
+          "id": "nmvzo1qkybrf",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B24: Search lên tay",
+          "cards": [
+            {
+              "id": 98396890,
+              "name": "Vision Resonator"
+            }
+          ],
+          "x": 5980,
+          "y": 911
+        },
+        {
+          "id": "nmvzo2ct902r",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B25: Search lên tay",
+          "cards": [
+            {
+              "id": 19434243,
+              "name": "Power Vice Dragon"
+            }
+          ],
+          "x": 5426,
+          "y": 2373
+        },
+        {
+          "id": "nmvzo30fh8ft",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B26: Special Summon",
+          "cards": [
+            {
+              "id": 19434243,
+              "name": "Power Vice Dragon"
+            }
+          ],
+          "x": 5927,
+          "y": 2373
+        },
+        {
+          "id": "nmvzo370gslw",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B27: Search lên tay",
+          "cards": [
+            {
+              "id": 83445539,
+              "name": "Darkness Resonator"
+            }
+          ],
+          "x": 6428,
+          "y": 2373
+        },
+        {
+          "id": "nmvzo3pgwfjb",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B28: Special Summon",
+          "cards": [
+            {
+              "id": 83445539,
+              "name": "Darkness Resonator"
+            }
+          ],
+          "x": 6929,
+          "y": 2373,
+          "note": "giam lv"
+        },
+        {
+          "id": "nmvzo4j0fs6t",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B29: Synchro Summon",
+          "cards": [
+            {
+              "id": 66141736,
+              "name": "Red Rising Dragon"
+            }
+          ],
+          "x": 6436,
+          "y": 2813
+        },
+        {
+          "id": "nmvzo5mkydfq",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B30: Special Summon",
+          "cards": [
+            {
+              "id": 77360173,
+              "name": "Synkron Resonator"
+            }
+          ],
+          "x": 6937,
+          "y": 2813
+        },
+        {
+          "id": "nmvzo5wg9uva",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B31: Synchro Summon",
+          "cards": [
+            {
+              "id": 4891376,
+              "name": "Zalen the Shackled Dragon"
+            }
+          ],
+          "x": 6745,
+          "y": 3284
+        },
+        {
+          "id": "nmvzo8kr5ci2",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B32: Search lên tay",
+          "cards": [
+            {
+              "id": 83445539,
+              "name": "Darkness Resonator"
+            }
+          ],
+          "x": 7438,
+          "y": 2813
+        },
+        {
+          "id": "nmvzo8us0mdo",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B33: Normal Summon",
+          "cards": [
+            {
+              "id": 83445539,
+              "name": "Darkness Resonator"
+            }
+          ],
+          "x": 7939,
+          "y": 2813
+        },
+        {
+          "id": "nmvzo94arn4r",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B34: Special Summon",
+          "cards": [
+            {
+              "id": 98396890,
+              "name": "Vision Resonator"
+            }
+          ],
+          "x": 8440,
+          "y": 2813
+        },
+        {
+          "id": "nmvzo9h087v9",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B35: Synchro Summon",
+          "cards": [
+            {
+              "id": 9753964,
+              "name": "Hot Red Dragon Archfiend Abyss"
+            }
+          ],
+          "x": 7995,
+          "y": 3658
+        },
+        {
+          "id": "nmvzoamy7uip",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B36: Synchro Summon",
+          "cards": [
+            {
+              "id": 29053656,
+              "name": "Crimson Dragon Quetzalcoatl"
+            }
+          ],
+          "x": 8571,
+          "y": 3245
+        },
+        {
+          "id": "nmvzob4qqujx",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B37: Synchro Summon",
+          "cards": [
+            {
+              "id": 9753964,
+              "name": "Hot Red Dragon Archfiend Abyss"
+            }
+          ],
+          "x": 9072,
+          "y": 3245
+        },
+        {
+          "id": "nmvzobl8pf0h",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B38: Synchro Summon",
+          "cards": [
+            {
+              "id": 4891376,
+              "name": "Zalen the Shackled Dragon"
+            }
+          ],
+          "x": 9072,
+          "y": 3445
+        },
+        {
+          "id": "nmvzoc6ornps",
+          "role": "step",
+          "starterId": "nmvznmm3va69",
+          "title": "B39: Synchro Summon",
+          "cards": [
+            {
+              "id": 3294539,
+              "name": "Crimson Blade Dragon"
+            }
+          ],
+          "x": 9072,
+          "y": 3645
+        },
+        {
+          "id": "fb_mvzocs57ul8",
+          "role": "endboard",
+          "isFieldBoard": true,
+          "starterId": "nmvznmm3va69",
+          "title": "🏟️ Sân cuối (Starter 2)",
+          "cards": [
+            {
+              "id": 29053656,
+              "name": "Crimson Dragon Quetzalcoatl",
+              "pos": "atk"
+            },
+            {
+              "id": 9753964,
+              "name": "Hot Red Dragon Archfiend Abyss",
+              "pos": "atk"
+            },
+            {
+              "id": 67809530,
+              "name": "The Crimson King",
+              "pos": "atk"
+            },
+            {
+              "id": 4891376,
+              "name": "Zalen the Shackled Dragon",
+              "pos": "atk"
+            },
+            {
+              "id": 3294539,
+              "name": "Crimson Blade Dragon",
+              "pos": "def"
+            },
+            {
+              "id": 32756828,
+              "name": "Branded Beast",
+              "pos": "set"
+            },
+            {
+              "id": 98173209,
+              "name": "Crimson Gaia",
+              "pos": "atk"
+            },
+            {
+              "id": 70088809,
+              "name": "Fydraulis Harmonia"
+            }
+          ],
+          "fieldZones": {
+            "field": [],
+            "emz1": [],
+            "emz2": [],
+            "gy": [],
+            "mmz1": [
+              {
+                "id": 29053656,
+                "name": "Crimson Dragon Quetzalcoatl",
+                "pos": "atk"
+              }
+            ],
+            "mmz2": [
+              {
+                "id": 9753964,
+                "name": "Hot Red Dragon Archfiend Abyss",
+                "pos": "atk"
+              }
+            ],
+            "mmz3": [
+              {
+                "id": 67809530,
+                "name": "The Crimson King",
+                "pos": "atk"
+              }
+            ],
+            "mmz4": [
+              {
+                "id": 4891376,
+                "name": "Zalen the Shackled Dragon",
+                "pos": "atk"
+              }
+            ],
+            "mmz5": [
+              {
+                "id": 3294539,
+                "name": "Crimson Blade Dragon",
+                "pos": "def"
+              }
+            ],
+            "stz1": [
+              {
+                "id": 32756828,
+                "name": "Branded Beast",
+                "pos": "set"
+              }
+            ],
+            "stz2": [],
+            "stz3": [
+              {
+                "id": 98173209,
+                "name": "Crimson Gaia",
+                "pos": "atk"
+              }
+            ],
+            "stz4": [],
+            "stz5": [],
+            "hand": [
+              {
+                "id": 70088809,
+                "name": "Fydraulis Harmonia"
+              }
+            ]
+          },
+          "x": -285,
+          "y": 837,
+          "note": ""
+        }
+      ],
+      "edges": [
+        {
+          "from": "nmvzfsbc3s9h",
+          "to": "nmvzfsnryseo",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzfsnryseo",
+          "to": "nmvzhgoklvhg",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzfsbc3s9h",
+          "to": "nmvzijjf9tqm",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzijph3a4k",
+          "sub": "",
+          "bendX": -202,
+          "bendY": 43
+        },
+        {
+          "from": "nmvzhgoklvhg",
+          "to": "nmvzijjf9tqm",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "bottom",
+          "mergeId": "mg_mvzijph3a4k",
+          "bendX": -202,
+          "bendY": 43
+        },
+        {
+          "from": "nmvzijjf9tqm",
+          "to": "nmvzjrvtglhy",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzjrvtglhy",
+          "to": "nmvzjsbsnzq5",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzjsbsnzq5",
+          "to": "nmvzjswnwxov",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzjswnwxov",
+          "to": "nmvzjuehfbrg",
+          "label": "Normal Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzjuehfbrg",
+          "to": "nmvzjuxop73f",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzijjf9tqm",
+          "to": "nmvzjvo809xr",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzjuxop73f",
+          "to": "nmvzkf6jrrrd",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzjuxop73f",
+          "to": "nmvzkfdlfqba",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzkfdlfqba",
+          "to": "nmvzkfut5iiz",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzkfut5iiz",
+          "to": "nmvzkh0ft8ae",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzkh0ft8ae",
+          "to": "nmvzkhpvh15p",
+          "label": "Gửi xuống Mộ",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzkhpvh15p",
+          "to": "nmvzlb9w0754",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzkf6jrrrd",
+          "to": "nmvzlbzc7ixx",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzlc7lvy2e",
+          "sub": ""
+        },
+        {
+          "from": "nmvzkh0ft8ae",
+          "to": "nmvzlbzc7ixx",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "top",
+          "mergeId": "mg_mvzlc7lvy2e"
+        },
+        {
+          "from": "nmvzkf6jrrrd",
+          "to": "nmvzldkxofyu",
+          "label": "Search mộ lên tay",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvzkf6jrrrd",
+          "to": "nmvzleilx9fz",
+          "label": "Special Summon GY",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvzleilx9fz",
+          "to": "nmvzlf7tfatq",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzlfc07mdc",
+          "sub": ""
+        },
+        {
+          "from": "nmvzlbzc7ixx",
+          "to": "nmvzlf7tfatq",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "top",
+          "mergeId": "mg_mvzlfc07mdc"
+        },
+        {
+          "from": "nmvzleilx9fz",
+          "to": "nmvzlfzxfjsq",
+          "label": "Search GY lên tay",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvzlf7tfatq",
+          "to": "nmvzlggc135y",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlggc135y",
+          "to": "nmvzlgrg4v7y",
+          "label": "Gửi xuống Mộ",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlgrg4v7y",
+          "to": "nmvzlgwrl2pu",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlfzxfjsq",
+          "to": "nmvzlhheqa0a",
+          "label": "Normal Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlhheqa0a",
+          "to": "nmvzlht0zx71",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlht0zx71",
+          "to": "nmvzlijnma1z",
+          "label": "Kích hiệu ứng",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlijnma1z",
+          "to": "nmvzlk6jmvpt",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzlm5qszzd",
+          "sub": "",
+          "bendX": 418,
+          "bendY": 85
+        },
+        {
+          "from": "nmvzlhheqa0a",
+          "to": "nmvzlk6jmvpt",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvzlm5qszzd",
+          "bendX": 418,
+          "bendY": 85
+        },
+        {
+          "from": "nmvzjuxop73f",
+          "to": "nmvzlk6jmvpt",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvzlm5qszzd",
+          "bendX": 418,
+          "bendY": 85
+        },
+        {
+          "from": "nmvzkfdlfqba",
+          "to": "nmvzlk6jmvpt",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvzlm5qszzd",
+          "bendX": 418,
+          "bendY": 85
+        },
+        {
+          "from": "nmvzlf7tfatq",
+          "to": "nmvzlk6jmvpt",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvzlm5qszzd",
+          "bendX": 418,
+          "bendY": 85
+        },
+        {
+          "from": "nmvzlgwrl2pu",
+          "to": "nmvzlny4ylq4",
+          "label": "Trục xuất",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlny4ylq4",
+          "to": "nmvzlo5jccib",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlo5jccib",
+          "to": "nmvzlorrawui",
+          "label": "Kích hiệu ứng",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlorrawui",
+          "to": "nmvzlou0zca3",
+          "label": "Gửi xuống Mộ",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlou0zca3",
+          "to": "nmvzlowmujxo",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlowmujxo",
+          "to": "nmvzlpfpz214",
+          "label": "Úp bài (Set)",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzldkxofyu",
+          "to": "nmvzlq5ww5pk",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlowmujxo",
+          "to": "nmvzlqkxjnu9",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzlqrl001g",
+          "sub": ""
+        },
+        {
+          "from": "nmvzlq5ww5pk",
+          "to": "nmvzlqkxjnu9",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvzlqrl001g"
+        },
+        {
+          "from": "nmvzlqkxjnu9",
+          "to": "nmvzlrmcuj8i",
+          "label": "Special Summon Ban",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvzlrmcuj8i",
+          "to": "nmvzlsb8k2kb",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzlsip66st",
+          "sub": "",
+          "bendX": 269,
+          "bendY": -258
+        },
+        {
+          "from": "nmvzlqkxjnu9",
+          "to": "nmvzlsb8k2kb",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvzlsip66st",
+          "bendX": 269,
+          "bendY": -258
+        },
+        {
+          "from": "nmvzlsb8k2kb",
+          "to": "nmvzltvbp20p",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlsb8k2kb",
+          "to": "nmvzlu110u6i",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlsb8k2kb",
+          "to": "nmvzlur40rbe",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzlou0zca3",
+          "to": "nmvzlutum8ru",
+          "label": "Search lên tay End Phase",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvzlb9w0754",
+          "to": "nmvzlwy02y8e",
+          "label": "Úp bài (Set)",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzltvbp20p",
+          "to": "nmvzm0o9hwyj",
+          "label": "Trục xuất",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzm0o9hwyj",
+          "to": "nmvzm0ui8wn2",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzfsbc3s9h",
+          "to": "fb_mvznav3tphv",
+          "fromPort": "left",
+          "toPort": "right",
+          "label": "Sân cuối / End Board",
+          "sub": "Trên sân & trên tay sau combo",
+          "kind": "endboard"
+        },
+        {
+          "from": "nmvznmm3va69",
+          "to": "nmvznn8bvpf7",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznn8bvpf7",
+          "to": "nmvznnvkceys",
+          "label": "Gửi xuống Mộ",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznnvkceys",
+          "to": "nmvznof94we9",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznof94we9",
+          "to": "nmvznoolu18z",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznoolu18z",
+          "to": "nmvznp4etzuu",
+          "label": "Normal Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznp4etzuu",
+          "to": "nmvznpd9e0ga",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznp4etzuu",
+          "to": "nmvznqen8pq4",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvznqsiaaro",
+          "sub": ""
+        },
+        {
+          "from": "nmvznn8bvpf7",
+          "to": "nmvznqen8pq4",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "bottom",
+          "mergeId": "mg_mvznqsiaaro"
+        },
+        {
+          "from": "nmvznqen8pq4",
+          "to": "nmvznrkdynhe",
+          "label": "Special SummonGY",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvznpd9e0ga",
+          "to": "nmvzns6memwe",
+          "label": "Special SummonHAND",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvzns6memwe",
+          "to": "nmvznsvs9kzq",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvznt9bidb0",
+          "sub": ""
+        },
+        {
+          "from": "nmvznqen8pq4",
+          "to": "nmvznsvs9kzq",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "bottom",
+          "mergeId": "mg_mvznt9bidb0"
+        },
+        {
+          "from": "nmvzns6memwe",
+          "to": "nmvznuy0gmeq",
+          "label": "Add targert GY lên tay",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvznsvs9kzq",
+          "to": "nmvznviuddut",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznviuddut",
+          "to": "nmvznvv6ms73",
+          "label": "Gửi xuống Mộ",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznvv6ms73",
+          "to": "nmvznvyx8vqr",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznvyx8vqr",
+          "to": "nmvznw8by4y0",
+          "label": "Trục xuất",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznw8by4y0",
+          "to": "nmvznwbjjs4q",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznwbjjs4q",
+          "to": "nmvznwytraib",
+          "label": "Gửi xuống Mộ",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznwytraib",
+          "to": "nmvznx585ala",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznwytraib",
+          "to": "nmvznxivua5i",
+          "label": "Search lên tay End Phase",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvznx585ala",
+          "to": "nmvzny6d1gky",
+          "label": "Đặt/Úp từ Deck",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznx585ala",
+          "to": "nmvznz5fzu45",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvznzgj737k",
+          "sub": ""
+        },
+        {
+          "from": "nmvznrkdynhe",
+          "to": "nmvznz5fzu45",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvznzgj737k"
+        },
+        {
+          "from": "nmvznz5fzu45",
+          "to": "nmvzo078dkh1",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzo078dkh1",
+          "to": "nmvzo0olxjz5",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzo0x474gz",
+          "sub": "",
+          "bendX": -184,
+          "bendY": 216
+        },
+        {
+          "from": "nmvznsvs9kzq",
+          "to": "nmvzo0olxjz5",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvzo0x474gz",
+          "bendX": -184,
+          "bendY": 216
+        },
+        {
+          "from": "nmvzo078dkh1",
+          "to": "nmvzo1qkybrf",
+          "label": "Search GY lên tay",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvzo0olxjz5",
+          "to": "nmvzo2ct902r",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzo2ct902r",
+          "to": "nmvzo30fh8ft",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzo30fh8ft",
+          "to": "nmvzo370gslw",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzo370gslw",
+          "to": "nmvzo3pgwfjb",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzo3pgwfjb",
+          "to": "nmvzo4j0fs6t",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzo4p49txf",
+          "sub": "",
+          "bendX": 69,
+          "bendY": 29
+        },
+        {
+          "from": "nmvzo30fh8ft",
+          "to": "nmvzo4j0fs6t",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "bottom",
+          "mergeId": "mg_mvzo4p49txf",
+          "bendX": 69,
+          "bendY": 29
+        },
+        {
+          "from": "nmvzo4j0fs6t",
+          "to": "nmvzo5mkydfq",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzo5mkydfq",
+          "to": "nmvzo5wg9uva",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzo63kc2f7",
+          "sub": ""
+        },
+        {
+          "from": "nmvzo4j0fs6t",
+          "to": "nmvzo5wg9uva",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "bottom",
+          "mergeId": "mg_mvzo63kc2f7"
+        },
+        {
+          "from": "nmvzo5mkydfq",
+          "to": "nmvzo8kr5ci2",
+          "label": "Search GY lên tay",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvzo8kr5ci2",
+          "to": "nmvzo8us0mdo",
+          "label": "Normal Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzo8us0mdo",
+          "to": "nmvzo94arn4r",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzo94arn4r",
+          "to": "nmvzo9h087v9",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzo9zy23xb",
+          "sub": "",
+          "bendX": -83,
+          "bendY": 83
+        },
+        {
+          "from": "nmvzo5wg9uva",
+          "to": "nmvzo9h087v9",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvzo9zy23xb",
+          "bendX": -83,
+          "bendY": 83
+        },
+        {
+          "from": "nmvzo9h087v9",
+          "to": "nmvzoamy7uip",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvzoaucvd2z",
+          "sub": ""
+        },
+        {
+          "from": "nmvzo8us0mdo",
+          "to": "nmvzoamy7uip",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "bottom",
+          "mergeId": "mg_mvzoaucvd2z"
+        },
+        {
+          "from": "nmvzoamy7uip",
+          "to": "nmvzob4qqujx",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzoamy7uip",
+          "to": "nmvzobl8pf0h",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvzoamy7uip",
+          "to": "nmvzoc6ornps",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvznmm3va69",
+          "to": "fb_mvzocs57ul8",
+          "fromPort": "left",
+          "toPort": "right",
+          "label": "Sân cuối / End Board",
+          "sub": "Trên sân & trên tay sau combo",
+          "kind": "endboard"
+        }
+      ]
+    }
+  ],
+  "custom_acts": [],
+  "art_prefs": {},
+  "vi_custom": {},
+  "deleted": {},
+  "content_hash": "51b97fb75da24c84faa10e611b64a5f75d9a9e54"
+}
