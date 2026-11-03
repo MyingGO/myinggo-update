@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:15:25",
+  "updated_at": "2026-11-03 17:15:29",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4822,6 +4822,16 @@
               "id": 28904860,
               "name": "Angelechy Bastion",
               "pos": "atk"
+            },
+            {
+              "id": 55393975,
+              "name": "Angelechy Destrier",
+              "pos": "atk"
+            },
+            {
+              "id": 55393975,
+              "name": "Angelechy Destrier",
+              "pos": "atk"
             }
           ],
           "fieldZones": {
@@ -4859,8 +4869,20 @@
                 "pos": "atk"
               }
             ],
-            "stz2": [],
-            "stz3": [],
+            "stz2": [
+              {
+                "id": 55393975,
+                "name": "Angelechy Destrier",
+                "pos": "atk"
+              }
+            ],
+            "stz3": [
+              {
+                "id": 55393975,
+                "name": "Angelechy Destrier",
+                "pos": "atk"
+              }
+            ],
             "stz4": [],
             "stz5": [],
             "hand": []
@@ -5133,12 +5155,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793700922789
+      "updatedAt": 1793700927844
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "a3ae874f6a673c07e5ef3bf4a5c1af0c1c68b239"
+  "content_hash": "47e1fbe033dd09241e01c38da7b13077848568df"
 }
