@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:23:12",
+  "updated_at": "2026-11-03 16:23:22",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -1237,13 +1237,13 @@
           "title": "🏟️ Sân cuối (Starter 4)",
           "cards": [
             {
-              "id": 65961304,
-              "name": "Kewl Tune B2B",
+              "id": 12381100,
+              "name": "Dragon Master Magia",
               "pos": "atk"
             },
             {
-              "id": 12381100,
-              "name": "Dragon Master Magia",
+              "id": 65961304,
+              "name": "Kewl Tune B2B",
               "pos": "atk"
             },
             {
@@ -1258,13 +1258,7 @@
           ],
           "fieldZones": {
             "field": [],
-            "emz1": [
-              {
-                "id": 65961304,
-                "name": "Kewl Tune B2B",
-                "pos": "atk"
-              }
-            ],
+            "emz1": [],
             "emz2": [],
             "gy": [],
             "mmz1": [],
@@ -1276,7 +1270,13 @@
                 "pos": "atk"
               }
             ],
-            "mmz4": [],
+            "mmz4": [
+              {
+                "id": 65961304,
+                "name": "Kewl Tune B2B",
+                "pos": "atk"
+              }
+            ],
             "mmz5": [],
             "stz1": [],
             "stz2": [],
@@ -1875,7 +1875,7 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793697789749
+      "updatedAt": 1793697801103
     },
     {
       "id": "m1793634680168",
@@ -4088,5 +4088,5 @@
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "3494323d2ee1b672f1f104c0ef12ec78554a1124"
+  "content_hash": "d4b672303f874bab5a59a086fa839ae79dd08bcd"
 }
