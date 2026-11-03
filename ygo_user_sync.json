@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:11:13",
+  "updated_at": "2026-11-03 17:11:31",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4767,6 +4767,20 @@
           ],
           "x": 2441,
           "y": 1510
+        },
+        {
+          "id": "nmw0j2t1g6fc",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B22: Trục xuất",
+          "cards": [
+            {
+              "id": 86673403,
+              "name": "Angelechy Seneschal"
+            }
+          ],
+          "x": 2942,
+          "y": 1510
         }
       ],
       "edges": [
@@ -4998,14 +5012,20 @@
           "mergeId": "mg_mw0j26wc2j8",
           "bendX": -99,
           "bendY": -66
+        },
+        {
+          "from": "nmw0j1rqce9f",
+          "to": "nmw0j2t1g6fc",
+          "label": "Trục xuất",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700671780
+      "updatedAt": 1793700688516
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "586f8e5f3e029ab3eaf96c5b60ffcff2597d2fe5"
+  "content_hash": "1eeef79ead67474f4d73e21a9c19cf7ed6984248"
 }
