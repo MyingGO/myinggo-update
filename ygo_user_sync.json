@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:08:26",
+  "updated_at": "2026-11-03 17:08:30",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4692,6 +4692,20 @@
           ],
           "x": 5488,
           "y": 1175
+        },
+        {
+          "id": "nmw0iyy581wy",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B17: Search lên tay",
+          "cards": [
+            {
+              "id": 54171327,
+              "name": "Angelechy Disturbance"
+            }
+          ],
+          "x": 5989,
+          "y": 1175
         }
       ],
       "edges": [
@@ -4878,14 +4892,20 @@
           "to": "nmw0iy8bo2tu",
           "label": "Search lên tay",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0iy8bo2tu",
+          "to": "nmw0iyy581wy",
+          "label": "Search lên tay",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700504892
+      "updatedAt": 1793700508508
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "d256db9031f744a78c0d229bb7ed2d654ebf2c14"
+  "content_hash": "379c4a1c33c5fbaaf4cd2b49b66ab1a117230234"
 }
