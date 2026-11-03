@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:48:14",
+  "updated_at": "2026-11-03 16:48:28",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4256,8 +4256,10 @@
         {
           "from": "nmw0i85rwxsm",
           "to": "nmw0i8fhg1zf",
-          "label": "Synchro Summon",
-          "kind": "normal"
+          "label": "Special Summon OP",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
         },
         {
           "from": "nmw0i85rwxsm",
@@ -4266,12 +4268,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793699291916
+      "updatedAt": 1793699305785
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "55f46c6774a42e50d98b8cd85837dd50b9738c62"
+  "content_hash": "078b09528c7c7c915c263534056f84b9bd7761b4"
 }
