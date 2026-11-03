@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:07:01",
+  "updated_at": "2026-11-03 17:07:13",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4655,6 +4655,20 @@
           ],
           "x": 4486,
           "y": 1175
+        },
+        {
+          "id": "nmw0ixav05ig",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B14: Synchro Summon",
+          "cards": [
+            {
+              "id": 81797573,
+              "name": "Angelechy Enlisted"
+            }
+          ],
+          "x": 5005,
+          "y": 975
         }
       ],
       "edges": [
@@ -4823,14 +4837,20 @@
           "to": "nmw0iw3rw5pl",
           "label": "Úp bài (Set)",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0ivj2sxsn",
+          "to": "nmw0ixav05ig",
+          "label": "Synchro Summon",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700420525
+      "updatedAt": 1793700431676
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "d773ab6a19f9f49748d3f4f94d355a4b1b365ecb"
+  "content_hash": "bba0d3a3189f4e6756f73593af92f1d17253c94a"
 }
