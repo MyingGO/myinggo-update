@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:07:13",
+  "updated_at": "2026-11-03 17:07:33",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4669,6 +4669,20 @@
           ],
           "x": 5005,
           "y": 975
+        },
+        {
+          "id": "nmw0ixq04ae1",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B15: Úp bài (Set)",
+          "cards": [
+            {
+              "id": 42410161,
+              "name": "Angelechy Shatranga"
+            }
+          ],
+          "x": 4987,
+          "y": 1175
         }
       ],
       "edges": [
@@ -4843,14 +4857,20 @@
           "to": "nmw0ixav05ig",
           "label": "Synchro Summon",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0iw3rw5pl",
+          "to": "nmw0ixq04ae1",
+          "label": "Úp bài (Set)",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700431676
+      "updatedAt": 1793700451300
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "bba0d3a3189f4e6756f73593af92f1d17253c94a"
+  "content_hash": "1aef1506d55e8b57cd6fe6eac2a44e480ff056a3"
 }
