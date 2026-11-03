@@ -1,72 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:19:12",
+  "updated_at": "2026-11-03 17:25:32",
   "built_decks": [
-    {
-      "id": "d1793633684237",
-      "name": "RED DRAGON ARCHFIEND",
-      "format": "none",
-      "main": [
-        32731036,
-        70088809,
-        70088809,
-        70088809,
-        33854624,
-        19434243,
-        19434243,
-        19434243,
-        25784595,
-        25784595,
-        25784595,
-        67750322,
-        42141493,
-        42141493,
-        42141493,
-        83445539,
-        83445539,
-        62991792,
-        62991792,
-        62991792,
-        14558127,
-        14558127,
-        14558127,
-        34761841,
-        98396890,
-        13764881,
-        77360173,
-        94145021,
-        99398682,
-        98173209,
-        98173209,
-        98173209,
-        65681983,
-        23008320,
-        23008320,
-        32756828,
-        40366667,
-        40366667,
-        40366667,
-        50056656
-      ],
-      "extra": [
-        66141736,
-        66141736,
-        9753964,
-        27572350,
-        99585850,
-        30698243,
-        63436931,
-        29053656,
-        65541655,
-        93125329,
-        4891376,
-        3294539,
-        70902743,
-        87451661,
-        67809530
-      ],
-      "side": []
-    },
     {
       "id": "d1793591627626",
       "name": "Morgana Stun",
@@ -218,6 +153,71 @@
       "side": []
     },
     {
+      "id": "d1793633684237",
+      "name": "RED DRAGON ARCHFIEND",
+      "format": "none",
+      "main": [
+        32731036,
+        70088809,
+        70088809,
+        70088809,
+        33854624,
+        19434243,
+        19434243,
+        19434243,
+        25784595,
+        25784595,
+        25784595,
+        67750322,
+        42141493,
+        42141493,
+        42141493,
+        83445539,
+        83445539,
+        62991792,
+        62991792,
+        62991792,
+        14558127,
+        14558127,
+        14558127,
+        34761841,
+        98396890,
+        13764881,
+        77360173,
+        94145021,
+        99398682,
+        98173209,
+        98173209,
+        98173209,
+        65681983,
+        23008320,
+        23008320,
+        32756828,
+        40366667,
+        40366667,
+        40366667,
+        50056656
+      ],
+      "extra": [
+        66141736,
+        66141736,
+        9753964,
+        27572350,
+        99585850,
+        30698243,
+        63436931,
+        29053656,
+        65541655,
+        93125329,
+        4891376,
+        3294539,
+        70902743,
+        87451661,
+        67809530
+      ],
+      "side": []
+    },
+    {
       "id": "d1793697898325",
       "name": "Angelechy",
       "format": "ae",
@@ -312,6 +312,1694 @@
     }
   ],
   "maps": [
+    {
+      "id": "m1793609831014",
+      "name_vi": "Combo: Morgana Stun",
+      "name_en": "Combo: Morgana Stun",
+      "deckId": "d1793633684237",
+      "nodes": [
+        {
+          "id": "nmvz1w2fhk5e",
+          "role": "starter",
+          "title": "Starter 1: Morgana the Witch ",
+          "cards": [
+            {
+              "id": 29439831,
+              "name": "Morgana the Witch of Eyes"
+            }
+          ],
+          "x": 85,
+          "y": 67,
+          "note": "Nếu lá này ở trạng thái Thường hoặc được Triệu hồi Đặc biệt: Bạn có thể thêm 1 \"Morganite\" Bài Phép từ Bộ bài của bạn vào tay",
+          "starterId": "nmvz1w2fhk5e"
+        },
+        {
+          "id": "nmvz1y8fpncr",
+          "role": "starter",
+          "title": "Starter 2: Succumbing-Song Mo",
+          "cards": [
+            {
+              "id": 81756619,
+              "name": "Succumbing-Song Morganite"
+            }
+          ],
+          "x": 94,
+          "y": 307,
+          "note": "Bạn có thể xọc xuất lá bài này từ Mộ của mình; thêm 1 lá bài \"Morganite\" từ Bộ bài của bạn vào tay bạn, sau đó đặt 1 lá bài từ tay bạn xuống đáy Bộ bài.",
+          "starterId": "nmvz1y8fpncr"
+        },
+        {
+          "id": "nmvz219uuvlu",
+          "role": "step",
+          "title": "B1: Search lên tay",
+          "cards": [
+            {
+              "id": 61822419,
+              "name": "Guilt-Gripping Morganite"
+            }
+          ],
+          "x": 477,
+          "y": 145,
+          "starterId": "nmvz1w2fhk5e"
+        }
+      ],
+      "edges": [
+        {
+          "from": "nmvz1w2fhk5e",
+          "to": "nmvz1y8fpncr",
+          "label": "Search lên tay",
+          "sub": "",
+          "kind": "pivot"
+        },
+        {
+          "from": "nmvz1y8fpncr",
+          "to": "nmvz1w2fhk5e",
+          "label": "Search lên tay",
+          "sub": "",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz1w2fhk5e",
+          "to": "nmvz219uuvlu",
+          "label": "Search lên tay",
+          "sub": "",
+          "kind": "converge"
+        },
+        {
+          "from": "nmvz1y8fpncr",
+          "to": "nmvz219uuvlu",
+          "label": "Search lên tay",
+          "sub": "",
+          "kind": "converge"
+        }
+      ],
+      "updatedAt": 1793697690741
+    },
+    {
+      "id": "m1793612952682",
+      "name_vi": "Combo: Blue Eyes",
+      "name_en": "Combo: Blue Eyes",
+      "deckId": "d1793612044476",
+      "nodes": [
+        {
+          "id": "nmvz2uf8efn2",
+          "role": "starter",
+          "title": "Primite + 1 Card blue eyes",
+          "cards": [
+            {
+              "id": 56506740,
+              "name": "Primite Lordly Lode"
+            }
+          ],
+          "x": 851,
+          "y": -100,
+          "note": "When this card is activated: Add 1 \"Primite\" card from your Deck to your hand",
+          "starterId": "nmvz2uf8efn2"
+        },
+        {
+          "id": "nmvz2ul92064",
+          "role": "starter",
+          "title": "Primite + 1 Card blue eyes",
+          "cards": [
+            {
+              "id": 63198739,
+              "name": "Primite Dragon Ether Beryl"
+            }
+          ],
+          "x": 933,
+          "y": 244,
+          "note": "If this card is Normal Summoned: You can Set 1 \"Primite\" Spell/Trap from your Deck",
+          "starterId": "nmvz2ul92064"
+        },
+        {
+          "id": "nmvz2uv45ikh",
+          "role": "starter",
+          "title": "Starter 3: Deep-Eyes White Dr",
+          "cards": [
+            {
+              "id": 67886895,
+              "name": "Deep-Eyes White Dragon, the Blue Abyss"
+            }
+          ],
+          "x": 959,
+          "y": 497,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz2z7ilw45",
+          "role": "step",
+          "title": "B1: Đặt/Úp từ Deck",
+          "cards": [
+            {
+              "id": 29095457,
+              "name": "Primite Drillbeam"
+            }
+          ],
+          "x": 1476,
+          "y": 110,
+          "starterId": "nmvz2ul92064"
+        },
+        {
+          "id": "nmvz3b70ly2s",
+          "role": "step",
+          "title": "B1: Search lên tay",
+          "cards": [
+            {
+              "id": 8240199,
+              "name": "Sage with Eyes of Blue"
+            }
+          ],
+          "x": 1418,
+          "y": 497,
+          "note": "When this card is Normal Summoned: You can add 1 Level 1 LIGHT Tuner from your Deck to your hand",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3bbr1ykv",
+          "role": "step",
+          "title": "B2: Search lên tay",
+          "cards": [
+            {
+              "id": 17947697,
+              "name": "Maiden of White"
+            }
+          ],
+          "x": 1877,
+          "y": 497,
+          "note": "You can send this card from your hand or field to the GY; place 1 \"True Light\" from your hand, Deck, or GY, face-up in your Spell & Trap Zone",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3c8b15e9",
+          "role": "step",
+          "title": "B3: Đặt/Úp từ Deck",
+          "cards": [
+            {
+              "id": 62089826,
+              "name": "True Light"
+            }
+          ],
+          "x": 2336,
+          "y": 497,
+          "note": "● Special Summon 1 \"Blue-Eyes White Dragon\" from your hand or GY.\n● Set 1 Spell/Trap directly from your Deck, that specifically lists \"Blue-Eyes White Dragon\" in its text, with a different name from the cards you control and in your GY.",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3cgk5z3v",
+          "role": "step",
+          "title": "B4: Đặt/Úp từ Deck",
+          "cards": [
+            {
+              "id": 80326401,
+              "name": "Wishes for Eyes of Blue"
+            }
+          ],
+          "x": 2740,
+          "y": 474,
+          "note": "Discard 1 card; add 1 Level 1 LIGHT Tuner, and 1 Spell/Trap that mentions \"Blue-Eyes White Dragon\", from your Deck to your hand",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3ddz9u54",
+          "role": "step",
+          "title": "B5: Search lên tay",
+          "cards": [
+            {
+              "id": 43219114,
+              "name": "Majesty of the White Dragons"
+            }
+          ],
+          "x": 3097,
+          "y": 322,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3ewiuvse",
+          "role": "step",
+          "title": "B6: Kích hiệu ứng",
+          "cards": [
+            {
+              "id": 71143015,
+              "name": "Ultimate Fusion"
+            }
+          ],
+          "x": 3426,
+          "y": 144,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3eynpibj",
+          "role": "step",
+          "title": "B7: Kích hiệu ứng",
+          "cards": [
+            {
+              "id": 17725109,
+              "name": "Roar of the Blue-Eyed Dragons"
+            }
+          ],
+          "x": 3736,
+          "y": 318,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3gg1xwfn",
+          "role": "step",
+          "title": "B8: Search lên tay",
+          "cards": [
+            {
+              "id": 97268402,
+              "name": "Effect Veiler"
+            }
+          ],
+          "x": 3096,
+          "y": 574,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3gsl1ok9",
+          "role": "step",
+          "title": "B9: Search lên tay",
+          "cards": [
+            {
+              "id": 67768675,
+              "name": "Kaibaman the Legend"
+            }
+          ],
+          "x": 3441,
+          "y": 737,
+          "note": "If this card is Normal or Special Summoned: You can show 3 \"Blue-Eyes White Dragon\" in your hand, Deck, face-up field, and/or GY, then Special Summon 1 \"Blue-Eyes White Dragon\" from your hand, Deck, or GY",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3i06d6eb",
+          "role": "step",
+          "title": "B10: Search lên tay",
+          "cards": [
+            {
+              "id": 8240199,
+              "name": "Sage with Eyes of Blue"
+            }
+          ],
+          "x": 3772,
+          "y": 552,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3ivf074n",
+          "role": "step",
+          "title": "B11: Link Summon",
+          "cards": [
+            {
+              "id": 42097666,
+              "name": "Spirit with Eyes of Blue"
+            }
+          ],
+          "x": 1826,
+          "y": 949,
+          "note": "You can take 1 \"Mausoleum of White\" from your Deck and either add it to your hand or send it to the GY",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3k3l8ake",
+          "role": "step",
+          "title": "B12: Search lên tay",
+          "cards": [
+            {
+              "id": 24382602,
+              "name": "Mausoleum of White"
+            }
+          ],
+          "x": 2285,
+          "y": 949,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz3l7gd8dn",
+          "role": "step",
+          "title": "B13: Special Summon",
+          "cards": [
+            {
+              "id": 89631139,
+              "name": "Blue-Eyes White Dragon"
+            }
+          ],
+          "x": 3387,
+          "y": 972,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz4e9xor3v",
+          "role": "step",
+          "title": "B14: Trục xuất",
+          "cards": [
+            {
+              "id": 80326401,
+              "name": "Wishes for Eyes of Blue"
+            }
+          ],
+          "x": 3217,
+          "y": 1276,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz4f36t7pf",
+          "role": "step",
+          "title": "B15: Úp bài (Set)",
+          "cards": [
+            {
+              "id": 23995348,
+              "name": "Blue-Eyes Ultimate Dragon"
+            }
+          ],
+          "x": 3676,
+          "y": 1276,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz4hghg863",
+          "role": "step",
+          "title": "B16: Synchro Summon",
+          "cards": [
+            {
+              "id": 59822133,
+              "name": "Blue-Eyes Spirit Dragon"
+            }
+          ],
+          "x": 4056,
+          "y": 896,
+          "note": "You can Tribute this Synchro Summoned card; Special Summon 1 LIGHT Dragon-Type Synchro Monster from your Extra Deck in Defense Position",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz60aoki33",
+          "role": "step",
+          "title": "B17: Kích hiệu ứng",
+          "cards": [
+            {
+              "id": 42097666,
+              "name": "Spirit with Eyes of Blue"
+            }
+          ],
+          "x": 2305,
+          "y": 1368,
+          "note": "You can Tribute this card; Special Summon 1 \"Blue-Eyes\" monster from your hand or GY",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz60t38sx6",
+          "role": "step",
+          "title": "B18: Special Summon",
+          "cards": [
+            {
+              "id": 89631139,
+              "name": "Blue-Eyes White Dragon"
+            }
+          ],
+          "x": 3527,
+          "y": 1548,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz614uszg1",
+          "role": "step",
+          "title": "B19: Kích hiệu ứng",
+          "cards": [
+            {
+              "id": 17947697,
+              "name": "Maiden of White"
+            }
+          ],
+          "x": 3523,
+          "y": 1854,
+          "note": " If you Special Summon \"Blue-Eyes White Dragon\" while this card is in your GY (except during the Damage Step): You can Special Summon this card.",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz61o3ghz1",
+          "role": "step",
+          "title": "B20: Special Summon",
+          "cards": [
+            {
+              "id": 17947697,
+              "name": "Maiden of White"
+            }
+          ],
+          "x": 3970,
+          "y": 2008,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz62f04equ",
+          "role": "step",
+          "title": "B21: Synchro Summon",
+          "cards": [
+            {
+              "id": 59822133,
+              "name": "Blue-Eyes Spirit Dragon"
+            }
+          ],
+          "x": 4099,
+          "y": 1330,
+          "note": "You can Tribute this Synchro Summoned card; Special Summon 1 LIGHT Dragon-Type Synchro Monster from your Extra Deck in Defense Position",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz66dedaxa",
+          "role": "endboard",
+          "title": "B22: Synchro Summon",
+          "cards": [
+            {
+              "id": 89604813,
+              "name": "Blue-Eyes Ultimate Spirit Dragon"
+            }
+          ],
+          "x": 5954,
+          "y": 832,
+          "note": "",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz683r8hkr",
+          "role": "step",
+          "title": "B22: Synchro Summon",
+          "cards": [
+            {
+              "id": 63436931,
+              "name": "Crimson Dragon"
+            }
+          ],
+          "x": 4590,
+          "y": 1342,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz68z64pra",
+          "role": "endboard",
+          "title": "B24: Fusion Summon",
+          "cards": [
+            {
+              "id": 12381100,
+              "name": "Dragon Master Magia"
+            }
+          ],
+          "x": 5948,
+          "y": 526,
+          "note": "",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6a4rgso1",
+          "role": "step",
+          "title": "B23: Search lên tay",
+          "cards": [
+            {
+              "id": 88901994,
+              "name": "Synchro Rumble"
+            }
+          ],
+          "x": 4950,
+          "y": 1531,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6afwjwxw",
+          "role": "endboard",
+          "title": "B26: Synchro Summon",
+          "cards": [
+            {
+              "id": 26268488,
+              "name": "Stardust Sifr Divine Dragon"
+            }
+          ],
+          "x": 5980,
+          "y": 1125,
+          "note": "",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6cvx8hd9",
+          "role": "step",
+          "title": "B24: Special Summon",
+          "cards": [
+            {
+              "id": 17947697,
+              "name": "Maiden of White"
+            }
+          ],
+          "x": 5297,
+          "y": 1780,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6dqn88y7",
+          "role": "step",
+          "title": "B25: Kích hiệu ứng",
+          "cards": [
+            {
+              "id": 24382602,
+              "name": "Mausoleum of White"
+            }
+          ],
+          "x": 2783,
+          "y": 1779,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6eh70joa",
+          "role": "step",
+          "title": "B26: Special Summon",
+          "cards": [
+            {
+              "id": 89631139,
+              "name": "Blue-Eyes White Dragon"
+            }
+          ],
+          "x": 5299,
+          "y": 2139,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6fs2tie2",
+          "role": "endboard",
+          "title": "B30: Synchro Summon",
+          "cards": [
+            {
+              "id": 59822133,
+              "name": "Blue-Eyes Spirit Dragon"
+            }
+          ],
+          "x": 5984,
+          "y": 1440,
+          "note": "",
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6nvg4rnl",
+          "role": "step",
+          "title": "B27: Fusion Summon",
+          "cards": [
+            {
+              "id": 91461780,
+              "name": "Blue-Eyes Ultimate Dragon, the God-Surpassing Servant"
+            }
+          ],
+          "x": 6449,
+          "y": 526,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6o0cchlw",
+          "role": "step",
+          "title": "B28: Synchro Summon",
+          "cards": [
+            {
+              "id": 21123811,
+              "name": "Cosmic Blazar Dragon"
+            }
+          ],
+          "x": 6485,
+          "y": 1440,
+          "starterId": "nmvz2uv45ikh"
+        },
+        {
+          "id": "nmvz6s7to",
+          "role": "starter",
+          "title": "Starter 4: Tay 5 lá",
+          "cards": [
+            {
+              "id": 80326401,
+              "name": "Wishes for Eyes of Blue"
+            },
+            {
+              "id": 8240199,
+              "name": "Sage with Eyes of Blue"
+            },
+            {
+              "id": 63198739,
+              "name": "Primite Dragon Ether Beryl"
+            },
+            {
+              "id": 89631139,
+              "name": "Blue-Eyes White Dragon",
+              "spec": {
+                "style": "standard",
+                "imgId": 89631142,
+                "src": "",
+                "remoteSrc": "",
+                "label": "Alt Art #4"
+              }
+            },
+            {
+              "id": 10045474,
+              "name": "Infinite Impermanence"
+            }
+          ],
+          "x": 699,
+          "y": 2370,
+          "starterId": "nmvz6s7to"
+        },
+        {
+          "id": "nmvz73jf7azn",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B1: Normal Summon",
+          "cards": [
+            {
+              "id": 63198739,
+              "name": "Primite Dragon Ether Beryl"
+            }
+          ],
+          "x": 1258,
+          "y": 2361
+        },
+        {
+          "id": "nmvz73z1vd8l",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B2: Đặt/Úp từ Deck",
+          "cards": [
+            {
+              "id": 56506740,
+              "name": "Primite Lordly Lode"
+            }
+          ],
+          "x": 1759,
+          "y": 2361
+        },
+        {
+          "id": "nmvz74q7w2ex",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B3: Search lên tay",
+          "cards": [
+            {
+              "id": 29095457,
+              "name": "Primite Drillbeam"
+            }
+          ],
+          "x": 2260,
+          "y": 2361
+        },
+        {
+          "id": "nmvz75084ucj",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B4: Link Summon",
+          "cards": [
+            {
+              "id": 42097666,
+              "name": "Spirit with Eyes of Blue"
+            }
+          ],
+          "x": 2770,
+          "y": 2431
+        },
+        {
+          "id": "nmvz75jo4yam",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B5: Search lên tay",
+          "cards": [
+            {
+              "id": 24382602,
+              "name": "Mausoleum of White"
+            }
+          ],
+          "x": 3195,
+          "y": 2241
+        },
+        {
+          "id": "nmvz776nonyv",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B6: Kích hiệu ứng",
+          "cards": [
+            {
+              "id": 80326401,
+              "name": "Wishes for Eyes of Blue"
+            }
+          ],
+          "x": 1220,
+          "y": 2653
+        },
+        {
+          "id": "nmvz77b8kg7o",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B7: Gửi xuống Mộ",
+          "cards": [
+            {
+              "id": 89631139,
+              "name": "Blue-Eyes White Dragon",
+              "spec": {
+                "style": "standard",
+                "imgId": 89631142,
+                "src": "",
+                "remoteSrc": "",
+                "label": "Alt Art #4"
+              }
+            }
+          ],
+          "x": 1683,
+          "y": 2563
+        },
+        {
+          "id": "nmvz77vcrby7",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B8: Search lên tay",
+          "cards": [
+            {
+              "id": 17947697,
+              "name": "Maiden of White"
+            }
+          ],
+          "x": 1721,
+          "y": 2763
+        },
+        {
+          "id": "nmvz788r0i2e",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B9: Search lên tay",
+          "cards": [
+            {
+              "id": 71143015,
+              "name": "Ultimate Fusion"
+            }
+          ],
+          "x": 1787,
+          "y": 3054
+        },
+        {
+          "id": "nmvz791ysp4c",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B10: Đặt/Úp từ Deck",
+          "cards": [
+            {
+              "id": 62089826,
+              "name": "True Light"
+            }
+          ],
+          "x": 2222,
+          "y": 2763
+        },
+        {
+          "id": "nmvz79tj72en",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B11: Normal Summon",
+          "cards": [
+            {
+              "id": 8240199,
+              "name": "Sage with Eyes of Blue"
+            }
+          ],
+          "x": 1166,
+          "y": 3095
+        },
+        {
+          "id": "nmvz7a35ooc0",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B12: Search lên tay",
+          "cards": [
+            {
+              "id": 97268402,
+              "name": "Effect Veiler"
+            }
+          ],
+          "x": 1632,
+          "y": 3372
+        },
+        {
+          "id": "nmvz7bp97t20",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B13: Special Summon",
+          "cards": [
+            {
+              "id": 89631139,
+              "name": "Blue-Eyes White Dragon",
+              "spec": {
+                "style": "standard",
+                "imgId": 89631142,
+                "src": "",
+                "remoteSrc": "",
+                "label": "Alt Art #4"
+              }
+            }
+          ],
+          "x": 2671,
+          "y": 2684
+        },
+        {
+          "id": "nmvz7bxwrltu",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B14: Special Summon",
+          "cards": [
+            {
+              "id": 17947697,
+              "name": "Maiden of White"
+            }
+          ],
+          "x": 3747,
+          "y": 2330
+        },
+        {
+          "id": "nmvz7exejdtf",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B15: Trục xuất",
+          "cards": [
+            {
+              "id": 80326401,
+              "name": "Wishes for Eyes of Blue"
+            }
+          ],
+          "x": 3236,
+          "y": 3159
+        },
+        {
+          "id": "nmvz7f6acetv",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B16: Đặt/Úp từ Deck",
+          "cards": [
+            {
+              "id": 23995348,
+              "name": "Blue-Eyes Ultimate Dragon"
+            }
+          ],
+          "x": 2794,
+          "y": 3159
+        },
+        {
+          "id": "nmvz7lom3vsj",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B17: Fusion Summon",
+          "cards": [
+            {
+              "id": 11443677,
+              "name": "Blue-Eyes Tyrant Dragon"
+            }
+          ],
+          "x": 3148,
+          "y": 2708
+        },
+        {
+          "id": "nmvz7mi0b3ot",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B18: Link Summon",
+          "cards": [
+            {
+              "id": 37458564,
+              "name": "Cyberse Contract Witch"
+            }
+          ],
+          "x": 3547,
+          "y": 2555
+        },
+        {
+          "id": "nmvz7n0skk82",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B19: Gửi xuống Mộ",
+          "cards": [
+            {
+              "id": 56506740,
+              "name": "Primite Lordly Lode"
+            }
+          ],
+          "x": 4041,
+          "y": 2579
+        },
+        {
+          "id": "nmvz7n8n7ufn",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B20: Search lên tay",
+          "cards": [
+            {
+              "id": 55410871,
+              "name": "Blue-Eyes Chaos MAX Dragon",
+              "spec": {
+                "style": "standard",
+                "imgId": 55410871,
+                "src": "/ygodata/images/variants/55410871_6854692388cf.png",
+                "remoteSrc": "https://static.wikia.nocookie.net/yugioh/images/5/52/BlueEyesChaosMAXDragon-QCAC-JP-QCScR.png/revision/latest?cb=20250422173321",
+                "label": "Collector Alt (QCAC JP-QCSCR)"
+              }
+            }
+          ],
+          "x": 3999,
+          "y": 2804
+        },
+        {
+          "id": "nmvz7nnhfcok",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B21: Fusion Summon",
+          "cards": [
+            {
+              "id": 12381100,
+              "name": "Dragon Master Magia"
+            }
+          ],
+          "x": 5019,
+          "y": 3030
+        },
+        {
+          "id": "nmvz7rpokgp7",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B22: Special Summon",
+          "cards": [
+            {
+              "id": 89631139,
+              "name": "Blue-Eyes White Dragon",
+              "spec": {
+                "style": "standard",
+                "imgId": 89631142,
+                "src": "",
+                "remoteSrc": "",
+                "label": "Alt Art #4"
+              }
+            }
+          ],
+          "x": 4255,
+          "y": 2167
+        },
+        {
+          "id": "nmvz7satfkzi",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B23: Synchro Summon",
+          "cards": [
+            {
+              "id": 59822133,
+              "name": "Blue-Eyes Spirit Dragon"
+            }
+          ],
+          "x": 4589,
+          "y": 2543
+        },
+        {
+          "id": "nmvz7tyj79vn",
+          "role": "step",
+          "starterId": "nmvz6s7to",
+          "title": "B24: Synchro Summon",
+          "cards": [
+            {
+              "id": 65961304,
+              "name": "Kewl Tune B2B"
+            }
+          ],
+          "x": 5018,
+          "y": 2702
+        },
+        {
+          "id": "fb_mw0hb9c6jg8",
+          "role": "endboard",
+          "isFieldBoard": true,
+          "starterId": "nmvz6s7to",
+          "title": "🏟️ Sân cuối (Starter 4)",
+          "cards": [
+            {
+              "id": 37458564,
+              "name": "Cyberse Contract Witch",
+              "pos": "atk"
+            },
+            {
+              "id": 12381100,
+              "name": "Dragon Master Magia",
+              "pos": "atk"
+            },
+            {
+              "id": 65961304,
+              "name": "Kewl Tune B2B",
+              "pos": "atk"
+            },
+            {
+              "id": 62089826,
+              "name": "True Light",
+              "pos": "atk"
+            },
+            {
+              "id": 29095457,
+              "name": "Primite Drillbeam",
+              "pos": "set"
+            },
+            {
+              "id": 10045474,
+              "name": "Infinite Impermanence"
+            },
+            {
+              "id": 97268402,
+              "name": "Effect Veiler"
+            }
+          ],
+          "fieldZones": {
+            "field": [],
+            "emz1": [],
+            "emz2": [
+              {
+                "id": 37458564,
+                "name": "Cyberse Contract Witch",
+                "pos": "atk"
+              }
+            ],
+            "gy": [],
+            "mmz1": [],
+            "mmz2": [],
+            "mmz3": [
+              {
+                "id": 12381100,
+                "name": "Dragon Master Magia",
+                "pos": "atk"
+              }
+            ],
+            "mmz4": [
+              {
+                "id": 65961304,
+                "name": "Kewl Tune B2B",
+                "pos": "atk"
+              }
+            ],
+            "mmz5": [],
+            "stz1": [],
+            "stz2": [
+              {
+                "id": 62089826,
+                "name": "True Light",
+                "pos": "atk"
+              }
+            ],
+            "stz3": [],
+            "stz4": [
+              {
+                "id": 29095457,
+                "name": "Primite Drillbeam",
+                "pos": "set"
+              }
+            ],
+            "stz5": [],
+            "hand": [
+              {
+                "id": 10045474,
+                "name": "Infinite Impermanence"
+              },
+              {
+                "id": 97268402,
+                "name": "Effect Veiler"
+              }
+            ]
+          },
+          "x": 38,
+          "y": 2370,
+          "note": ""
+        }
+      ],
+      "edges": [
+        {
+          "from": "nmvz2ul92064",
+          "to": "nmvz2uf8efn2",
+          "label": "SET",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "top",
+          "route": "curve",
+          "bendX": -15,
+          "bendY": -1
+        },
+        {
+          "from": "nmvz2uf8efn2",
+          "to": "nmvz2ul92064",
+          "label": "ADD",
+          "sub": "",
+          "kind": "pivot",
+          "fromPort": "bottom",
+          "route": "curve",
+          "bendX": -12,
+          "bendY": -3
+        },
+        {
+          "from": "nmvz2ul92064",
+          "to": "nmvz2z7ilw45",
+          "label": "Đặt/Úp từ Deck",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz2uf8efn2",
+          "to": "nmvz2z7ilw45",
+          "label": "Search lên tay",
+          "sub": "",
+          "kind": "converge",
+          "fromPort": "right"
+        },
+        {
+          "from": "nmvz2uv45ikh",
+          "to": "nmvz3b70ly2s",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3b70ly2s",
+          "to": "nmvz3bbr1ykv",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3bbr1ykv",
+          "to": "nmvz3c8b15e9",
+          "label": "Đặt/Úp từ Deck",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3c8b15e9",
+          "to": "nmvz3cgk5z3v",
+          "label": "Đặt/Úp từ Deck",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3cgk5z3v",
+          "to": "nmvz3ddz9u54",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3ddz9u54",
+          "to": "nmvz3ewiuvse",
+          "label": "or",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz3ewiuvse",
+          "to": "nmvz3eynpibj",
+          "label": "or",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz3cgk5z3v",
+          "to": "nmvz3gg1xwfn",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3gg1xwfn",
+          "to": "nmvz3gsl1ok9",
+          "label": "OR",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve",
+          "bendX": -11,
+          "bendY": 19
+        },
+        {
+          "from": "nmvz3gsl1ok9",
+          "to": "nmvz3i06d6eb",
+          "label": "OR",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz3b70ly2s",
+          "to": "nmvz3ivf074n",
+          "label": "Link Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3ivf074n",
+          "to": "nmvz3k3l8ake",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3k3l8ake",
+          "to": "nmvz3gsl1ok9",
+          "label": "Normal Summon",
+          "sub": "",
+          "kind": "converge",
+          "fromPort": "right",
+          "bendX": 27,
+          "bendY": -30
+        },
+        {
+          "from": "nmvz3gsl1ok9",
+          "to": "nmvz3l7gd8dn",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3gg1xwfn",
+          "to": "nmvz3i06d6eb",
+          "label": "OR",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "route": "curve",
+          "bendX": -8,
+          "bendY": -69
+        },
+        {
+          "from": "nmvz3gg1xwfn",
+          "to": "nmvz3ddz9u54",
+          "label": "Hội tụ về nhánh chính",
+          "sub": "",
+          "kind": "converge"
+        },
+        {
+          "from": "nmvz3ddz9u54",
+          "to": "nmvz3eynpibj",
+          "label": "OR",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "route": "curve",
+          "bendX": -5,
+          "bendY": 88
+        },
+        {
+          "from": "nmvz3l7gd8dn",
+          "to": "nmvz4e9xor3v",
+          "label": "Trục xuất",
+          "kind": "normal",
+          "bendX": -97,
+          "bendY": -27
+        },
+        {
+          "from": "nmvz4e9xor3v",
+          "to": "nmvz4f36t7pf",
+          "label": "Set",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz4f36t7pf",
+          "to": "nmvz3l7gd8dn",
+          "label": "Trang bị",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "top",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz3l7gd8dn",
+          "to": "nmvz4hghg863",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvz5xrnosqd",
+          "sub": ""
+        },
+        {
+          "from": "nmvz3gsl1ok9",
+          "to": "nmvz4hghg863",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvz5xrnosqd"
+        },
+        {
+          "from": "nmvz3ivf074n",
+          "to": "nmvz60aoki33",
+          "label": "Kích hiệu ứng",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz60aoki33",
+          "to": "nmvz60t38sx6",
+          "label": "Special Summon",
+          "kind": "normal",
+          "bendX": -35,
+          "bendY": 49
+        },
+        {
+          "from": "nmvz60t38sx6",
+          "to": "nmvz614uszg1",
+          "label": "Kích hiệu ứng",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz614uszg1",
+          "to": "nmvz61o3ghz1",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz61o3ghz1",
+          "to": "nmvz62f04equ",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvz62mpg6jy",
+          "sub": "",
+          "bendX": -33,
+          "bendY": 56
+        },
+        {
+          "from": "nmvz60t38sx6",
+          "to": "nmvz62f04equ",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvz62mpg6jy",
+          "bendX": -33,
+          "bendY": 56
+        },
+        {
+          "from": "nmvz4hghg863",
+          "to": "nmvz66dedaxa",
+          "label": "Special Summon",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz62f04equ",
+          "to": "nmvz683r8hkr",
+          "label": "Special Summon",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz3ewiuvse",
+          "to": "nmvz68z64pra",
+          "label": "Fusion Summon",
+          "kind": "normal",
+          "bendX": -50,
+          "bendY": -65
+        },
+        {
+          "from": "nmvz683r8hkr",
+          "to": "nmvz6a4rgso1",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz683r8hkr",
+          "to": "nmvz6afwjwxw",
+          "label": "Synchro Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz6a4rgso1",
+          "to": "nmvz6cvx8hd9",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz3k3l8ake",
+          "to": "nmvz6dqn88y7",
+          "label": "Kích hiệu ứng",
+          "kind": "normal",
+          "bendX": 469,
+          "bendY": 25
+        },
+        {
+          "from": "nmvz6dqn88y7",
+          "to": "nmvz6cvx8hd9",
+          "label": "Kích hiệu ứng",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "bendX": -14,
+          "bendY": -58
+        },
+        {
+          "from": "nmvz6cvx8hd9",
+          "to": "nmvz6eh70joa",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz6eh70joa",
+          "to": "nmvz6fs2tie2",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvz6fxwc56v",
+          "sub": ""
+        },
+        {
+          "from": "nmvz6cvx8hd9",
+          "to": "nmvz6fs2tie2",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvz6fxwc56v"
+        },
+        {
+          "from": "nmvz68z64pra",
+          "to": "nmvz6nvg4rnl",
+          "label": "Special Summon",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz6fs2tie2",
+          "to": "nmvz6o0cchlw",
+          "label": "Special Summon",
+          "kind": "normal",
+          "sub": "",
+          "route": "curve"
+        },
+        {
+          "from": "nmvz6s7to",
+          "to": "nmvz73jf7azn",
+          "label": "Normal Summon",
+          "kind": "normal",
+          "bendX": -25,
+          "bendY": 0
+        },
+        {
+          "from": "nmvz73jf7azn",
+          "to": "nmvz73z1vd8l",
+          "label": "Đặt/Úp từ Deck",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz73z1vd8l",
+          "to": "nmvz74q7w2ex",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz74q7w2ex",
+          "to": "nmvz75084ucj",
+          "label": "Link Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz75084ucj",
+          "to": "nmvz75jo4yam",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz6s7to",
+          "to": "nmvz776nonyv",
+          "label": "Kích hiệu ứng",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz776nonyv",
+          "to": "nmvz77b8kg7o",
+          "label": "Gửi xuống Mộ",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz776nonyv",
+          "to": "nmvz77vcrby7",
+          "label": "Search lên tay",
+          "kind": "normal",
+          "mergeId": "mg_mvz78gp8rs9",
+          "sub": ""
+        },
+        {
+          "from": "nmvz776nonyv",
+          "to": "nmvz788r0i2e",
+          "label": "Search lên tay",
+          "kind": "normal",
+          "mergeId": "mg_mvz78gp8rs9",
+          "sub": ""
+        },
+        {
+          "from": "nmvz77vcrby7",
+          "to": "nmvz791ysp4c",
+          "label": "Đặt/Úp từ Deck",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz6s7to",
+          "to": "nmvz79tj72en",
+          "label": "Normal Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz79tj72en",
+          "to": "nmvz7a35ooc0",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz791ysp4c",
+          "to": "nmvz7bp97t20",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz7bp97t20",
+          "to": "nmvz7bxwrltu",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz7bp97t20",
+          "to": "nmvz7exejdtf",
+          "label": "Trục xuất",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz7exejdtf",
+          "to": "nmvz7f6acetv",
+          "label": "Đặt/Úp từ Deck",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz7f6acetv",
+          "to": "nmvz7bp97t20",
+          "label": "trang bị",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "top",
+          "route": "curve",
+          "bendX": -25,
+          "bendY": 30
+        },
+        {
+          "from": "nmvz7bp97t20",
+          "to": "nmvz7lom3vsj",
+          "label": "Fusion Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz7lom3vsj",
+          "to": "nmvz7mi0b3ot",
+          "label": "Link Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvz7mt6c2p3",
+          "sub": "",
+          "bendX": -14,
+          "bendY": -56
+        },
+        {
+          "from": "nmvz75084ucj",
+          "to": "nmvz7mi0b3ot",
+          "label": "Link Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvz7mt6c2p3",
+          "bendX": -14,
+          "bendY": -56
+        },
+        {
+          "from": "nmvz7mi0b3ot",
+          "to": "nmvz7n0skk82",
+          "label": "Gửi xuống Mộ",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz7mi0b3ot",
+          "to": "nmvz7n8n7ufn",
+          "label": "Search lên tay",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz788r0i2e",
+          "to": "nmvz7nnhfcok",
+          "label": "Fusion Summon",
+          "kind": "normal",
+          "bendX": -203,
+          "bendY": 436
+        },
+        {
+          "from": "nmvz75jo4yam",
+          "to": "nmvz7bxwrltu",
+          "label": "Kích hiệu ứng",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right"
+        },
+        {
+          "from": "nmvz7bxwrltu",
+          "to": "nmvz7rpokgp7",
+          "label": "Special Summon",
+          "kind": "normal"
+        },
+        {
+          "from": "nmvz7rpokgp7",
+          "to": "nmvz7satfkzi",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvz7sfxn1yd",
+          "sub": ""
+        },
+        {
+          "from": "nmvz7bxwrltu",
+          "to": "nmvz7satfkzi",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvz7sfxn1yd"
+        },
+        {
+          "from": "nmvz7satfkzi",
+          "to": "nmvz7tyj79vn",
+          "label": "Synchro Summon",
+          "kind": "normal",
+          "mergeId": "mg_mvz7umyzkxo",
+          "sub": "",
+          "bendX": 257,
+          "bendY": 165
+        },
+        {
+          "from": "nmvz79tj72en",
+          "to": "nmvz7tyj79vn",
+          "label": "Synchro Summon",
+          "sub": "",
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mvz7umyzkxo",
+          "bendX": 257,
+          "bendY": 165
+        },
+        {
+          "from": "nmvz6s7to",
+          "to": "fb_mw0hb9c6jg8",
+          "fromPort": "left",
+          "toPort": "right",
+          "label": "Sân cuối / End Board",
+          "sub": "Trên sân & trên tay sau combo",
+          "kind": "endboard"
+        }
+      ],
+      "updatedAt": 1793697849965
+    },
     {
       "id": "m1793634680168",
       "name_vi": "Combo: RED DRAGON ARCHFIEND",
@@ -2519,1694 +4207,6 @@
       "updatedAt": 1793701150321
     },
     {
-      "id": "m1793609831014",
-      "name_vi": "Combo: Morgana Stun",
-      "name_en": "Combo: Morgana Stun",
-      "deckId": "d1793633684237",
-      "nodes": [
-        {
-          "id": "nmvz1w2fhk5e",
-          "role": "starter",
-          "title": "Starter 1: Morgana the Witch ",
-          "cards": [
-            {
-              "id": 29439831,
-              "name": "Morgana the Witch of Eyes"
-            }
-          ],
-          "x": 85,
-          "y": 67,
-          "note": "Nếu lá này ở trạng thái Thường hoặc được Triệu hồi Đặc biệt: Bạn có thể thêm 1 \"Morganite\" Bài Phép từ Bộ bài của bạn vào tay",
-          "starterId": "nmvz1w2fhk5e"
-        },
-        {
-          "id": "nmvz1y8fpncr",
-          "role": "starter",
-          "title": "Starter 2: Succumbing-Song Mo",
-          "cards": [
-            {
-              "id": 81756619,
-              "name": "Succumbing-Song Morganite"
-            }
-          ],
-          "x": 94,
-          "y": 307,
-          "note": "Bạn có thể xọc xuất lá bài này từ Mộ của mình; thêm 1 lá bài \"Morganite\" từ Bộ bài của bạn vào tay bạn, sau đó đặt 1 lá bài từ tay bạn xuống đáy Bộ bài.",
-          "starterId": "nmvz1y8fpncr"
-        },
-        {
-          "id": "nmvz219uuvlu",
-          "role": "step",
-          "title": "B1: Search lên tay",
-          "cards": [
-            {
-              "id": 61822419,
-              "name": "Guilt-Gripping Morganite"
-            }
-          ],
-          "x": 477,
-          "y": 145,
-          "starterId": "nmvz1w2fhk5e"
-        }
-      ],
-      "edges": [
-        {
-          "from": "nmvz1w2fhk5e",
-          "to": "nmvz1y8fpncr",
-          "label": "Search lên tay",
-          "sub": "",
-          "kind": "pivot"
-        },
-        {
-          "from": "nmvz1y8fpncr",
-          "to": "nmvz1w2fhk5e",
-          "label": "Search lên tay",
-          "sub": "",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz1w2fhk5e",
-          "to": "nmvz219uuvlu",
-          "label": "Search lên tay",
-          "sub": "",
-          "kind": "converge"
-        },
-        {
-          "from": "nmvz1y8fpncr",
-          "to": "nmvz219uuvlu",
-          "label": "Search lên tay",
-          "sub": "",
-          "kind": "converge"
-        }
-      ],
-      "updatedAt": 1793697690741
-    },
-    {
-      "id": "m1793612952682",
-      "name_vi": "Combo: Blue Eyes",
-      "name_en": "Combo: Blue Eyes",
-      "deckId": "d1793612044476",
-      "nodes": [
-        {
-          "id": "nmvz2uf8efn2",
-          "role": "starter",
-          "title": "Primite + 1 Card blue eyes",
-          "cards": [
-            {
-              "id": 56506740,
-              "name": "Primite Lordly Lode"
-            }
-          ],
-          "x": 851,
-          "y": -100,
-          "note": "When this card is activated: Add 1 \"Primite\" card from your Deck to your hand",
-          "starterId": "nmvz2uf8efn2"
-        },
-        {
-          "id": "nmvz2ul92064",
-          "role": "starter",
-          "title": "Primite + 1 Card blue eyes",
-          "cards": [
-            {
-              "id": 63198739,
-              "name": "Primite Dragon Ether Beryl"
-            }
-          ],
-          "x": 933,
-          "y": 244,
-          "note": "If this card is Normal Summoned: You can Set 1 \"Primite\" Spell/Trap from your Deck",
-          "starterId": "nmvz2ul92064"
-        },
-        {
-          "id": "nmvz2uv45ikh",
-          "role": "starter",
-          "title": "Starter 3: Deep-Eyes White Dr",
-          "cards": [
-            {
-              "id": 67886895,
-              "name": "Deep-Eyes White Dragon, the Blue Abyss"
-            }
-          ],
-          "x": 959,
-          "y": 497,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz2z7ilw45",
-          "role": "step",
-          "title": "B1: Đặt/Úp từ Deck",
-          "cards": [
-            {
-              "id": 29095457,
-              "name": "Primite Drillbeam"
-            }
-          ],
-          "x": 1476,
-          "y": 110,
-          "starterId": "nmvz2ul92064"
-        },
-        {
-          "id": "nmvz3b70ly2s",
-          "role": "step",
-          "title": "B1: Search lên tay",
-          "cards": [
-            {
-              "id": 8240199,
-              "name": "Sage with Eyes of Blue"
-            }
-          ],
-          "x": 1418,
-          "y": 497,
-          "note": "When this card is Normal Summoned: You can add 1 Level 1 LIGHT Tuner from your Deck to your hand",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3bbr1ykv",
-          "role": "step",
-          "title": "B2: Search lên tay",
-          "cards": [
-            {
-              "id": 17947697,
-              "name": "Maiden of White"
-            }
-          ],
-          "x": 1877,
-          "y": 497,
-          "note": "You can send this card from your hand or field to the GY; place 1 \"True Light\" from your hand, Deck, or GY, face-up in your Spell & Trap Zone",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3c8b15e9",
-          "role": "step",
-          "title": "B3: Đặt/Úp từ Deck",
-          "cards": [
-            {
-              "id": 62089826,
-              "name": "True Light"
-            }
-          ],
-          "x": 2336,
-          "y": 497,
-          "note": "● Special Summon 1 \"Blue-Eyes White Dragon\" from your hand or GY.\n● Set 1 Spell/Trap directly from your Deck, that specifically lists \"Blue-Eyes White Dragon\" in its text, with a different name from the cards you control and in your GY.",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3cgk5z3v",
-          "role": "step",
-          "title": "B4: Đặt/Úp từ Deck",
-          "cards": [
-            {
-              "id": 80326401,
-              "name": "Wishes for Eyes of Blue"
-            }
-          ],
-          "x": 2740,
-          "y": 474,
-          "note": "Discard 1 card; add 1 Level 1 LIGHT Tuner, and 1 Spell/Trap that mentions \"Blue-Eyes White Dragon\", from your Deck to your hand",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3ddz9u54",
-          "role": "step",
-          "title": "B5: Search lên tay",
-          "cards": [
-            {
-              "id": 43219114,
-              "name": "Majesty of the White Dragons"
-            }
-          ],
-          "x": 3097,
-          "y": 322,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3ewiuvse",
-          "role": "step",
-          "title": "B6: Kích hiệu ứng",
-          "cards": [
-            {
-              "id": 71143015,
-              "name": "Ultimate Fusion"
-            }
-          ],
-          "x": 3426,
-          "y": 144,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3eynpibj",
-          "role": "step",
-          "title": "B7: Kích hiệu ứng",
-          "cards": [
-            {
-              "id": 17725109,
-              "name": "Roar of the Blue-Eyed Dragons"
-            }
-          ],
-          "x": 3736,
-          "y": 318,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3gg1xwfn",
-          "role": "step",
-          "title": "B8: Search lên tay",
-          "cards": [
-            {
-              "id": 97268402,
-              "name": "Effect Veiler"
-            }
-          ],
-          "x": 3096,
-          "y": 574,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3gsl1ok9",
-          "role": "step",
-          "title": "B9: Search lên tay",
-          "cards": [
-            {
-              "id": 67768675,
-              "name": "Kaibaman the Legend"
-            }
-          ],
-          "x": 3441,
-          "y": 737,
-          "note": "If this card is Normal or Special Summoned: You can show 3 \"Blue-Eyes White Dragon\" in your hand, Deck, face-up field, and/or GY, then Special Summon 1 \"Blue-Eyes White Dragon\" from your hand, Deck, or GY",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3i06d6eb",
-          "role": "step",
-          "title": "B10: Search lên tay",
-          "cards": [
-            {
-              "id": 8240199,
-              "name": "Sage with Eyes of Blue"
-            }
-          ],
-          "x": 3772,
-          "y": 552,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3ivf074n",
-          "role": "step",
-          "title": "B11: Link Summon",
-          "cards": [
-            {
-              "id": 42097666,
-              "name": "Spirit with Eyes of Blue"
-            }
-          ],
-          "x": 1826,
-          "y": 949,
-          "note": "You can take 1 \"Mausoleum of White\" from your Deck and either add it to your hand or send it to the GY",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3k3l8ake",
-          "role": "step",
-          "title": "B12: Search lên tay",
-          "cards": [
-            {
-              "id": 24382602,
-              "name": "Mausoleum of White"
-            }
-          ],
-          "x": 2285,
-          "y": 949,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz3l7gd8dn",
-          "role": "step",
-          "title": "B13: Special Summon",
-          "cards": [
-            {
-              "id": 89631139,
-              "name": "Blue-Eyes White Dragon"
-            }
-          ],
-          "x": 3387,
-          "y": 972,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz4e9xor3v",
-          "role": "step",
-          "title": "B14: Trục xuất",
-          "cards": [
-            {
-              "id": 80326401,
-              "name": "Wishes for Eyes of Blue"
-            }
-          ],
-          "x": 3217,
-          "y": 1276,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz4f36t7pf",
-          "role": "step",
-          "title": "B15: Úp bài (Set)",
-          "cards": [
-            {
-              "id": 23995348,
-              "name": "Blue-Eyes Ultimate Dragon"
-            }
-          ],
-          "x": 3676,
-          "y": 1276,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz4hghg863",
-          "role": "step",
-          "title": "B16: Synchro Summon",
-          "cards": [
-            {
-              "id": 59822133,
-              "name": "Blue-Eyes Spirit Dragon"
-            }
-          ],
-          "x": 4056,
-          "y": 896,
-          "note": "You can Tribute this Synchro Summoned card; Special Summon 1 LIGHT Dragon-Type Synchro Monster from your Extra Deck in Defense Position",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz60aoki33",
-          "role": "step",
-          "title": "B17: Kích hiệu ứng",
-          "cards": [
-            {
-              "id": 42097666,
-              "name": "Spirit with Eyes of Blue"
-            }
-          ],
-          "x": 2305,
-          "y": 1368,
-          "note": "You can Tribute this card; Special Summon 1 \"Blue-Eyes\" monster from your hand or GY",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz60t38sx6",
-          "role": "step",
-          "title": "B18: Special Summon",
-          "cards": [
-            {
-              "id": 89631139,
-              "name": "Blue-Eyes White Dragon"
-            }
-          ],
-          "x": 3527,
-          "y": 1548,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz614uszg1",
-          "role": "step",
-          "title": "B19: Kích hiệu ứng",
-          "cards": [
-            {
-              "id": 17947697,
-              "name": "Maiden of White"
-            }
-          ],
-          "x": 3523,
-          "y": 1854,
-          "note": " If you Special Summon \"Blue-Eyes White Dragon\" while this card is in your GY (except during the Damage Step): You can Special Summon this card.",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz61o3ghz1",
-          "role": "step",
-          "title": "B20: Special Summon",
-          "cards": [
-            {
-              "id": 17947697,
-              "name": "Maiden of White"
-            }
-          ],
-          "x": 3970,
-          "y": 2008,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz62f04equ",
-          "role": "step",
-          "title": "B21: Synchro Summon",
-          "cards": [
-            {
-              "id": 59822133,
-              "name": "Blue-Eyes Spirit Dragon"
-            }
-          ],
-          "x": 4099,
-          "y": 1330,
-          "note": "You can Tribute this Synchro Summoned card; Special Summon 1 LIGHT Dragon-Type Synchro Monster from your Extra Deck in Defense Position",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz66dedaxa",
-          "role": "endboard",
-          "title": "B22: Synchro Summon",
-          "cards": [
-            {
-              "id": 89604813,
-              "name": "Blue-Eyes Ultimate Spirit Dragon"
-            }
-          ],
-          "x": 5954,
-          "y": 832,
-          "note": "",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz683r8hkr",
-          "role": "step",
-          "title": "B22: Synchro Summon",
-          "cards": [
-            {
-              "id": 63436931,
-              "name": "Crimson Dragon"
-            }
-          ],
-          "x": 4590,
-          "y": 1342,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz68z64pra",
-          "role": "endboard",
-          "title": "B24: Fusion Summon",
-          "cards": [
-            {
-              "id": 12381100,
-              "name": "Dragon Master Magia"
-            }
-          ],
-          "x": 5948,
-          "y": 526,
-          "note": "",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6a4rgso1",
-          "role": "step",
-          "title": "B23: Search lên tay",
-          "cards": [
-            {
-              "id": 88901994,
-              "name": "Synchro Rumble"
-            }
-          ],
-          "x": 4950,
-          "y": 1531,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6afwjwxw",
-          "role": "endboard",
-          "title": "B26: Synchro Summon",
-          "cards": [
-            {
-              "id": 26268488,
-              "name": "Stardust Sifr Divine Dragon"
-            }
-          ],
-          "x": 5980,
-          "y": 1125,
-          "note": "",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6cvx8hd9",
-          "role": "step",
-          "title": "B24: Special Summon",
-          "cards": [
-            {
-              "id": 17947697,
-              "name": "Maiden of White"
-            }
-          ],
-          "x": 5297,
-          "y": 1780,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6dqn88y7",
-          "role": "step",
-          "title": "B25: Kích hiệu ứng",
-          "cards": [
-            {
-              "id": 24382602,
-              "name": "Mausoleum of White"
-            }
-          ],
-          "x": 2783,
-          "y": 1779,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6eh70joa",
-          "role": "step",
-          "title": "B26: Special Summon",
-          "cards": [
-            {
-              "id": 89631139,
-              "name": "Blue-Eyes White Dragon"
-            }
-          ],
-          "x": 5299,
-          "y": 2139,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6fs2tie2",
-          "role": "endboard",
-          "title": "B30: Synchro Summon",
-          "cards": [
-            {
-              "id": 59822133,
-              "name": "Blue-Eyes Spirit Dragon"
-            }
-          ],
-          "x": 5984,
-          "y": 1440,
-          "note": "",
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6nvg4rnl",
-          "role": "step",
-          "title": "B27: Fusion Summon",
-          "cards": [
-            {
-              "id": 91461780,
-              "name": "Blue-Eyes Ultimate Dragon, the God-Surpassing Servant"
-            }
-          ],
-          "x": 6449,
-          "y": 526,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6o0cchlw",
-          "role": "step",
-          "title": "B28: Synchro Summon",
-          "cards": [
-            {
-              "id": 21123811,
-              "name": "Cosmic Blazar Dragon"
-            }
-          ],
-          "x": 6485,
-          "y": 1440,
-          "starterId": "nmvz2uv45ikh"
-        },
-        {
-          "id": "nmvz6s7to",
-          "role": "starter",
-          "title": "Starter 4: Tay 5 lá",
-          "cards": [
-            {
-              "id": 80326401,
-              "name": "Wishes for Eyes of Blue"
-            },
-            {
-              "id": 8240199,
-              "name": "Sage with Eyes of Blue"
-            },
-            {
-              "id": 63198739,
-              "name": "Primite Dragon Ether Beryl"
-            },
-            {
-              "id": 89631139,
-              "name": "Blue-Eyes White Dragon",
-              "spec": {
-                "style": "standard",
-                "imgId": 89631142,
-                "src": "",
-                "remoteSrc": "",
-                "label": "Alt Art #4"
-              }
-            },
-            {
-              "id": 10045474,
-              "name": "Infinite Impermanence"
-            }
-          ],
-          "x": 699,
-          "y": 2370,
-          "starterId": "nmvz6s7to"
-        },
-        {
-          "id": "nmvz73jf7azn",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B1: Normal Summon",
-          "cards": [
-            {
-              "id": 63198739,
-              "name": "Primite Dragon Ether Beryl"
-            }
-          ],
-          "x": 1258,
-          "y": 2361
-        },
-        {
-          "id": "nmvz73z1vd8l",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B2: Đặt/Úp từ Deck",
-          "cards": [
-            {
-              "id": 56506740,
-              "name": "Primite Lordly Lode"
-            }
-          ],
-          "x": 1759,
-          "y": 2361
-        },
-        {
-          "id": "nmvz74q7w2ex",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B3: Search lên tay",
-          "cards": [
-            {
-              "id": 29095457,
-              "name": "Primite Drillbeam"
-            }
-          ],
-          "x": 2260,
-          "y": 2361
-        },
-        {
-          "id": "nmvz75084ucj",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B4: Link Summon",
-          "cards": [
-            {
-              "id": 42097666,
-              "name": "Spirit with Eyes of Blue"
-            }
-          ],
-          "x": 2770,
-          "y": 2431
-        },
-        {
-          "id": "nmvz75jo4yam",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B5: Search lên tay",
-          "cards": [
-            {
-              "id": 24382602,
-              "name": "Mausoleum of White"
-            }
-          ],
-          "x": 3195,
-          "y": 2241
-        },
-        {
-          "id": "nmvz776nonyv",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B6: Kích hiệu ứng",
-          "cards": [
-            {
-              "id": 80326401,
-              "name": "Wishes for Eyes of Blue"
-            }
-          ],
-          "x": 1220,
-          "y": 2653
-        },
-        {
-          "id": "nmvz77b8kg7o",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B7: Gửi xuống Mộ",
-          "cards": [
-            {
-              "id": 89631139,
-              "name": "Blue-Eyes White Dragon",
-              "spec": {
-                "style": "standard",
-                "imgId": 89631142,
-                "src": "",
-                "remoteSrc": "",
-                "label": "Alt Art #4"
-              }
-            }
-          ],
-          "x": 1683,
-          "y": 2563
-        },
-        {
-          "id": "nmvz77vcrby7",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B8: Search lên tay",
-          "cards": [
-            {
-              "id": 17947697,
-              "name": "Maiden of White"
-            }
-          ],
-          "x": 1721,
-          "y": 2763
-        },
-        {
-          "id": "nmvz788r0i2e",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B9: Search lên tay",
-          "cards": [
-            {
-              "id": 71143015,
-              "name": "Ultimate Fusion"
-            }
-          ],
-          "x": 1787,
-          "y": 3054
-        },
-        {
-          "id": "nmvz791ysp4c",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B10: Đặt/Úp từ Deck",
-          "cards": [
-            {
-              "id": 62089826,
-              "name": "True Light"
-            }
-          ],
-          "x": 2222,
-          "y": 2763
-        },
-        {
-          "id": "nmvz79tj72en",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B11: Normal Summon",
-          "cards": [
-            {
-              "id": 8240199,
-              "name": "Sage with Eyes of Blue"
-            }
-          ],
-          "x": 1166,
-          "y": 3095
-        },
-        {
-          "id": "nmvz7a35ooc0",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B12: Search lên tay",
-          "cards": [
-            {
-              "id": 97268402,
-              "name": "Effect Veiler"
-            }
-          ],
-          "x": 1632,
-          "y": 3372
-        },
-        {
-          "id": "nmvz7bp97t20",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B13: Special Summon",
-          "cards": [
-            {
-              "id": 89631139,
-              "name": "Blue-Eyes White Dragon",
-              "spec": {
-                "style": "standard",
-                "imgId": 89631142,
-                "src": "",
-                "remoteSrc": "",
-                "label": "Alt Art #4"
-              }
-            }
-          ],
-          "x": 2671,
-          "y": 2684
-        },
-        {
-          "id": "nmvz7bxwrltu",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B14: Special Summon",
-          "cards": [
-            {
-              "id": 17947697,
-              "name": "Maiden of White"
-            }
-          ],
-          "x": 3747,
-          "y": 2330
-        },
-        {
-          "id": "nmvz7exejdtf",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B15: Trục xuất",
-          "cards": [
-            {
-              "id": 80326401,
-              "name": "Wishes for Eyes of Blue"
-            }
-          ],
-          "x": 3236,
-          "y": 3159
-        },
-        {
-          "id": "nmvz7f6acetv",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B16: Đặt/Úp từ Deck",
-          "cards": [
-            {
-              "id": 23995348,
-              "name": "Blue-Eyes Ultimate Dragon"
-            }
-          ],
-          "x": 2794,
-          "y": 3159
-        },
-        {
-          "id": "nmvz7lom3vsj",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B17: Fusion Summon",
-          "cards": [
-            {
-              "id": 11443677,
-              "name": "Blue-Eyes Tyrant Dragon"
-            }
-          ],
-          "x": 3148,
-          "y": 2708
-        },
-        {
-          "id": "nmvz7mi0b3ot",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B18: Link Summon",
-          "cards": [
-            {
-              "id": 37458564,
-              "name": "Cyberse Contract Witch"
-            }
-          ],
-          "x": 3547,
-          "y": 2555
-        },
-        {
-          "id": "nmvz7n0skk82",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B19: Gửi xuống Mộ",
-          "cards": [
-            {
-              "id": 56506740,
-              "name": "Primite Lordly Lode"
-            }
-          ],
-          "x": 4041,
-          "y": 2579
-        },
-        {
-          "id": "nmvz7n8n7ufn",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B20: Search lên tay",
-          "cards": [
-            {
-              "id": 55410871,
-              "name": "Blue-Eyes Chaos MAX Dragon",
-              "spec": {
-                "style": "standard",
-                "imgId": 55410871,
-                "src": "/ygodata/images/variants/55410871_6854692388cf.png",
-                "remoteSrc": "https://static.wikia.nocookie.net/yugioh/images/5/52/BlueEyesChaosMAXDragon-QCAC-JP-QCScR.png/revision/latest?cb=20250422173321",
-                "label": "Collector Alt (QCAC JP-QCSCR)"
-              }
-            }
-          ],
-          "x": 3999,
-          "y": 2804
-        },
-        {
-          "id": "nmvz7nnhfcok",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B21: Fusion Summon",
-          "cards": [
-            {
-              "id": 12381100,
-              "name": "Dragon Master Magia"
-            }
-          ],
-          "x": 5019,
-          "y": 3030
-        },
-        {
-          "id": "nmvz7rpokgp7",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B22: Special Summon",
-          "cards": [
-            {
-              "id": 89631139,
-              "name": "Blue-Eyes White Dragon",
-              "spec": {
-                "style": "standard",
-                "imgId": 89631142,
-                "src": "",
-                "remoteSrc": "",
-                "label": "Alt Art #4"
-              }
-            }
-          ],
-          "x": 4255,
-          "y": 2167
-        },
-        {
-          "id": "nmvz7satfkzi",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B23: Synchro Summon",
-          "cards": [
-            {
-              "id": 59822133,
-              "name": "Blue-Eyes Spirit Dragon"
-            }
-          ],
-          "x": 4589,
-          "y": 2543
-        },
-        {
-          "id": "nmvz7tyj79vn",
-          "role": "step",
-          "starterId": "nmvz6s7to",
-          "title": "B24: Synchro Summon",
-          "cards": [
-            {
-              "id": 65961304,
-              "name": "Kewl Tune B2B"
-            }
-          ],
-          "x": 5018,
-          "y": 2702
-        },
-        {
-          "id": "fb_mw0hb9c6jg8",
-          "role": "endboard",
-          "isFieldBoard": true,
-          "starterId": "nmvz6s7to",
-          "title": "🏟️ Sân cuối (Starter 4)",
-          "cards": [
-            {
-              "id": 37458564,
-              "name": "Cyberse Contract Witch",
-              "pos": "atk"
-            },
-            {
-              "id": 12381100,
-              "name": "Dragon Master Magia",
-              "pos": "atk"
-            },
-            {
-              "id": 65961304,
-              "name": "Kewl Tune B2B",
-              "pos": "atk"
-            },
-            {
-              "id": 62089826,
-              "name": "True Light",
-              "pos": "atk"
-            },
-            {
-              "id": 29095457,
-              "name": "Primite Drillbeam",
-              "pos": "set"
-            },
-            {
-              "id": 10045474,
-              "name": "Infinite Impermanence"
-            },
-            {
-              "id": 97268402,
-              "name": "Effect Veiler"
-            }
-          ],
-          "fieldZones": {
-            "field": [],
-            "emz1": [],
-            "emz2": [
-              {
-                "id": 37458564,
-                "name": "Cyberse Contract Witch",
-                "pos": "atk"
-              }
-            ],
-            "gy": [],
-            "mmz1": [],
-            "mmz2": [],
-            "mmz3": [
-              {
-                "id": 12381100,
-                "name": "Dragon Master Magia",
-                "pos": "atk"
-              }
-            ],
-            "mmz4": [
-              {
-                "id": 65961304,
-                "name": "Kewl Tune B2B",
-                "pos": "atk"
-              }
-            ],
-            "mmz5": [],
-            "stz1": [],
-            "stz2": [
-              {
-                "id": 62089826,
-                "name": "True Light",
-                "pos": "atk"
-              }
-            ],
-            "stz3": [],
-            "stz4": [
-              {
-                "id": 29095457,
-                "name": "Primite Drillbeam",
-                "pos": "set"
-              }
-            ],
-            "stz5": [],
-            "hand": [
-              {
-                "id": 10045474,
-                "name": "Infinite Impermanence"
-              },
-              {
-                "id": 97268402,
-                "name": "Effect Veiler"
-              }
-            ]
-          },
-          "x": 38,
-          "y": 2370,
-          "note": ""
-        }
-      ],
-      "edges": [
-        {
-          "from": "nmvz2ul92064",
-          "to": "nmvz2uf8efn2",
-          "label": "SET",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "top",
-          "route": "curve",
-          "bendX": -15,
-          "bendY": -1
-        },
-        {
-          "from": "nmvz2uf8efn2",
-          "to": "nmvz2ul92064",
-          "label": "ADD",
-          "sub": "",
-          "kind": "pivot",
-          "fromPort": "bottom",
-          "route": "curve",
-          "bendX": -12,
-          "bendY": -3
-        },
-        {
-          "from": "nmvz2ul92064",
-          "to": "nmvz2z7ilw45",
-          "label": "Đặt/Úp từ Deck",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz2uf8efn2",
-          "to": "nmvz2z7ilw45",
-          "label": "Search lên tay",
-          "sub": "",
-          "kind": "converge",
-          "fromPort": "right"
-        },
-        {
-          "from": "nmvz2uv45ikh",
-          "to": "nmvz3b70ly2s",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3b70ly2s",
-          "to": "nmvz3bbr1ykv",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3bbr1ykv",
-          "to": "nmvz3c8b15e9",
-          "label": "Đặt/Úp từ Deck",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3c8b15e9",
-          "to": "nmvz3cgk5z3v",
-          "label": "Đặt/Úp từ Deck",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3cgk5z3v",
-          "to": "nmvz3ddz9u54",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3ddz9u54",
-          "to": "nmvz3ewiuvse",
-          "label": "or",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz3ewiuvse",
-          "to": "nmvz3eynpibj",
-          "label": "or",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz3cgk5z3v",
-          "to": "nmvz3gg1xwfn",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3gg1xwfn",
-          "to": "nmvz3gsl1ok9",
-          "label": "OR",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve",
-          "bendX": -11,
-          "bendY": 19
-        },
-        {
-          "from": "nmvz3gsl1ok9",
-          "to": "nmvz3i06d6eb",
-          "label": "OR",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz3b70ly2s",
-          "to": "nmvz3ivf074n",
-          "label": "Link Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3ivf074n",
-          "to": "nmvz3k3l8ake",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3k3l8ake",
-          "to": "nmvz3gsl1ok9",
-          "label": "Normal Summon",
-          "sub": "",
-          "kind": "converge",
-          "fromPort": "right",
-          "bendX": 27,
-          "bendY": -30
-        },
-        {
-          "from": "nmvz3gsl1ok9",
-          "to": "nmvz3l7gd8dn",
-          "label": "Special Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3gg1xwfn",
-          "to": "nmvz3i06d6eb",
-          "label": "OR",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "route": "curve",
-          "bendX": -8,
-          "bendY": -69
-        },
-        {
-          "from": "nmvz3gg1xwfn",
-          "to": "nmvz3ddz9u54",
-          "label": "Hội tụ về nhánh chính",
-          "sub": "",
-          "kind": "converge"
-        },
-        {
-          "from": "nmvz3ddz9u54",
-          "to": "nmvz3eynpibj",
-          "label": "OR",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "route": "curve",
-          "bendX": -5,
-          "bendY": 88
-        },
-        {
-          "from": "nmvz3l7gd8dn",
-          "to": "nmvz4e9xor3v",
-          "label": "Trục xuất",
-          "kind": "normal",
-          "bendX": -97,
-          "bendY": -27
-        },
-        {
-          "from": "nmvz4e9xor3v",
-          "to": "nmvz4f36t7pf",
-          "label": "Set",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz4f36t7pf",
-          "to": "nmvz3l7gd8dn",
-          "label": "Trang bị",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "top",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz3l7gd8dn",
-          "to": "nmvz4hghg863",
-          "label": "Synchro Summon",
-          "kind": "normal",
-          "mergeId": "mg_mvz5xrnosqd",
-          "sub": ""
-        },
-        {
-          "from": "nmvz3gsl1ok9",
-          "to": "nmvz4hghg863",
-          "label": "Synchro Summon",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "mergeId": "mg_mvz5xrnosqd"
-        },
-        {
-          "from": "nmvz3ivf074n",
-          "to": "nmvz60aoki33",
-          "label": "Kích hiệu ứng",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz60aoki33",
-          "to": "nmvz60t38sx6",
-          "label": "Special Summon",
-          "kind": "normal",
-          "bendX": -35,
-          "bendY": 49
-        },
-        {
-          "from": "nmvz60t38sx6",
-          "to": "nmvz614uszg1",
-          "label": "Kích hiệu ứng",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz614uszg1",
-          "to": "nmvz61o3ghz1",
-          "label": "Special Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz61o3ghz1",
-          "to": "nmvz62f04equ",
-          "label": "Synchro Summon",
-          "kind": "normal",
-          "mergeId": "mg_mvz62mpg6jy",
-          "sub": "",
-          "bendX": -33,
-          "bendY": 56
-        },
-        {
-          "from": "nmvz60t38sx6",
-          "to": "nmvz62f04equ",
-          "label": "Synchro Summon",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "mergeId": "mg_mvz62mpg6jy",
-          "bendX": -33,
-          "bendY": 56
-        },
-        {
-          "from": "nmvz4hghg863",
-          "to": "nmvz66dedaxa",
-          "label": "Special Summon",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz62f04equ",
-          "to": "nmvz683r8hkr",
-          "label": "Special Summon",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz3ewiuvse",
-          "to": "nmvz68z64pra",
-          "label": "Fusion Summon",
-          "kind": "normal",
-          "bendX": -50,
-          "bendY": -65
-        },
-        {
-          "from": "nmvz683r8hkr",
-          "to": "nmvz6a4rgso1",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz683r8hkr",
-          "to": "nmvz6afwjwxw",
-          "label": "Synchro Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz6a4rgso1",
-          "to": "nmvz6cvx8hd9",
-          "label": "Special Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz3k3l8ake",
-          "to": "nmvz6dqn88y7",
-          "label": "Kích hiệu ứng",
-          "kind": "normal",
-          "bendX": 469,
-          "bendY": 25
-        },
-        {
-          "from": "nmvz6dqn88y7",
-          "to": "nmvz6cvx8hd9",
-          "label": "Kích hiệu ứng",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "bendX": -14,
-          "bendY": -58
-        },
-        {
-          "from": "nmvz6cvx8hd9",
-          "to": "nmvz6eh70joa",
-          "label": "Special Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz6eh70joa",
-          "to": "nmvz6fs2tie2",
-          "label": "Synchro Summon",
-          "kind": "normal",
-          "mergeId": "mg_mvz6fxwc56v",
-          "sub": ""
-        },
-        {
-          "from": "nmvz6cvx8hd9",
-          "to": "nmvz6fs2tie2",
-          "label": "Synchro Summon",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "mergeId": "mg_mvz6fxwc56v"
-        },
-        {
-          "from": "nmvz68z64pra",
-          "to": "nmvz6nvg4rnl",
-          "label": "Special Summon",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz6fs2tie2",
-          "to": "nmvz6o0cchlw",
-          "label": "Special Summon",
-          "kind": "normal",
-          "sub": "",
-          "route": "curve"
-        },
-        {
-          "from": "nmvz6s7to",
-          "to": "nmvz73jf7azn",
-          "label": "Normal Summon",
-          "kind": "normal",
-          "bendX": -25,
-          "bendY": 0
-        },
-        {
-          "from": "nmvz73jf7azn",
-          "to": "nmvz73z1vd8l",
-          "label": "Đặt/Úp từ Deck",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz73z1vd8l",
-          "to": "nmvz74q7w2ex",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz74q7w2ex",
-          "to": "nmvz75084ucj",
-          "label": "Link Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz75084ucj",
-          "to": "nmvz75jo4yam",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz6s7to",
-          "to": "nmvz776nonyv",
-          "label": "Kích hiệu ứng",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz776nonyv",
-          "to": "nmvz77b8kg7o",
-          "label": "Gửi xuống Mộ",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz776nonyv",
-          "to": "nmvz77vcrby7",
-          "label": "Search lên tay",
-          "kind": "normal",
-          "mergeId": "mg_mvz78gp8rs9",
-          "sub": ""
-        },
-        {
-          "from": "nmvz776nonyv",
-          "to": "nmvz788r0i2e",
-          "label": "Search lên tay",
-          "kind": "normal",
-          "mergeId": "mg_mvz78gp8rs9",
-          "sub": ""
-        },
-        {
-          "from": "nmvz77vcrby7",
-          "to": "nmvz791ysp4c",
-          "label": "Đặt/Úp từ Deck",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz6s7to",
-          "to": "nmvz79tj72en",
-          "label": "Normal Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz79tj72en",
-          "to": "nmvz7a35ooc0",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz791ysp4c",
-          "to": "nmvz7bp97t20",
-          "label": "Special Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz7bp97t20",
-          "to": "nmvz7bxwrltu",
-          "label": "Special Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz7bp97t20",
-          "to": "nmvz7exejdtf",
-          "label": "Trục xuất",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz7exejdtf",
-          "to": "nmvz7f6acetv",
-          "label": "Đặt/Úp từ Deck",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz7f6acetv",
-          "to": "nmvz7bp97t20",
-          "label": "trang bị",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "top",
-          "route": "curve",
-          "bendX": -25,
-          "bendY": 30
-        },
-        {
-          "from": "nmvz7bp97t20",
-          "to": "nmvz7lom3vsj",
-          "label": "Fusion Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz7lom3vsj",
-          "to": "nmvz7mi0b3ot",
-          "label": "Link Summon",
-          "kind": "normal",
-          "mergeId": "mg_mvz7mt6c2p3",
-          "sub": "",
-          "bendX": -14,
-          "bendY": -56
-        },
-        {
-          "from": "nmvz75084ucj",
-          "to": "nmvz7mi0b3ot",
-          "label": "Link Summon",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "mergeId": "mg_mvz7mt6c2p3",
-          "bendX": -14,
-          "bendY": -56
-        },
-        {
-          "from": "nmvz7mi0b3ot",
-          "to": "nmvz7n0skk82",
-          "label": "Gửi xuống Mộ",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz7mi0b3ot",
-          "to": "nmvz7n8n7ufn",
-          "label": "Search lên tay",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz788r0i2e",
-          "to": "nmvz7nnhfcok",
-          "label": "Fusion Summon",
-          "kind": "normal",
-          "bendX": -203,
-          "bendY": 436
-        },
-        {
-          "from": "nmvz75jo4yam",
-          "to": "nmvz7bxwrltu",
-          "label": "Kích hiệu ứng",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right"
-        },
-        {
-          "from": "nmvz7bxwrltu",
-          "to": "nmvz7rpokgp7",
-          "label": "Special Summon",
-          "kind": "normal"
-        },
-        {
-          "from": "nmvz7rpokgp7",
-          "to": "nmvz7satfkzi",
-          "label": "Synchro Summon",
-          "kind": "normal",
-          "mergeId": "mg_mvz7sfxn1yd",
-          "sub": ""
-        },
-        {
-          "from": "nmvz7bxwrltu",
-          "to": "nmvz7satfkzi",
-          "label": "Synchro Summon",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "mergeId": "mg_mvz7sfxn1yd"
-        },
-        {
-          "from": "nmvz7satfkzi",
-          "to": "nmvz7tyj79vn",
-          "label": "Synchro Summon",
-          "kind": "normal",
-          "mergeId": "mg_mvz7umyzkxo",
-          "sub": "",
-          "bendX": 257,
-          "bendY": 165
-        },
-        {
-          "from": "nmvz79tj72en",
-          "to": "nmvz7tyj79vn",
-          "label": "Synchro Summon",
-          "sub": "",
-          "kind": "normal",
-          "fromPort": "right",
-          "mergeId": "mg_mvz7umyzkxo",
-          "bendX": 257,
-          "bendY": 165
-        },
-        {
-          "from": "nmvz6s7to",
-          "to": "fb_mw0hb9c6jg8",
-          "fromPort": "left",
-          "toPort": "right",
-          "label": "Sân cuối / End Board",
-          "sub": "Trên sân & trên tay sau combo",
-          "kind": "endboard"
-        }
-      ],
-      "updatedAt": 1793697849965
-    },
-    {
       "id": "m1793699243011",
       "name_vi": "Combo: DONEAngelechy",
       "name_en": "Combo: DONEAngelechy",
@@ -5184,5 +5184,5 @@
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "edd0bd77f7599cc9f7279886c067eeb582c0a632"
+  "content_hash": "0d361e6643530ac68d2e92fe7629367ea2be4504"
 }
