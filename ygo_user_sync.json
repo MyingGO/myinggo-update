@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:13:54",
+  "updated_at": "2026-11-03 17:13:57",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4793,8 +4793,8 @@
               "name": "Black-Winged Assault Dragon"
             }
           ],
-          "x": 4995,
-          "y": 1405
+          "x": 3771,
+          "y": 1685
         }
       ],
       "edges": [
@@ -5040,12 +5040,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700831708
+      "updatedAt": 1793700836147
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "20ec6900541aec59f53a8e3b842694ed589a3377"
+  "content_hash": "863555706ce449f74335ef5764d2f19ff95fefab"
 }
