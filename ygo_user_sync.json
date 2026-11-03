@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:11:01",
+  "updated_at": "2026-11-03 17:11:06",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4984,7 +4984,9 @@
           "label": "Synchro Summon",
           "kind": "normal",
           "mergeId": "mg_mw0j26wc2j8",
-          "sub": ""
+          "sub": "",
+          "bendX": 135,
+          "bendY": -54
         },
         {
           "from": "nmw0inc506a5",
@@ -4993,15 +4995,17 @@
           "sub": "",
           "kind": "normal",
           "fromPort": "right",
-          "mergeId": "mg_mw0j26wc2j8"
+          "mergeId": "mg_mw0j26wc2j8",
+          "bendX": 135,
+          "bendY": -54
         }
       ],
-      "updatedAt": 1793700659820
+      "updatedAt": 1793700664892
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "37a8375fdde7739c22879e2063c164288fd52e87"
+  "content_hash": "b400819967a60a8e8c9289f9e344655840cb89a6"
 }
