@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:15:37",
+  "updated_at": "2026-11-03 17:15:41",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4909,8 +4909,8 @@
             ],
             "hand": []
           },
-          "x": 38,
-          "y": 682,
+          "x": -18,
+          "y": 495,
           "note": ""
         }
       ],
@@ -5177,12 +5177,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793700935459
+      "updatedAt": 1793700941260
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "94f66a60d0abd9474397ca4b88b50c2af758f4f2"
+  "content_hash": "f7617c043aebb4b05c7c9254a90dafd15273d39d"
 }
