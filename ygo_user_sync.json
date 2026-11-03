@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:23:58",
+  "updated_at": "2026-11-03 16:24:01",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -1254,7 +1254,7 @@
             {
               "id": 62089826,
               "name": "True Light",
-              "pos": "set"
+              "pos": "atk"
             },
             {
               "id": 29095457,
@@ -1299,7 +1299,7 @@
               {
                 "id": 62089826,
                 "name": "True Light",
-                "pos": "set"
+                "pos": "atk"
               }
             ],
             "stz3": [],
@@ -1897,7 +1897,7 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793697835997
+      "updatedAt": 1793697839317
     },
     {
       "id": "m1793634680168",
@@ -4110,5 +4110,5 @@
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "2cf266d9b6217be86919a0d9f88d7187e416be30"
+  "content_hash": "8aefc7b1d8fae64cec0dd162b8e0eb545b4ad834"
 }
