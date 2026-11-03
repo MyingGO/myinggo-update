@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:15:11",
+  "updated_at": "2026-11-03 17:15:16",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4804,6 +4804,11 @@
           "title": "🏟️ Sân cuối (Starter 2)",
           "cards": [
             {
+              "id": 81797573,
+              "name": "Angelechy Enlisted",
+              "pos": "atk"
+            },
+            {
               "id": 73218989,
               "name": "Black-Winged Assault Dragon",
               "pos": "atk"
@@ -4816,7 +4821,13 @@
           ],
           "fieldZones": {
             "field": [],
-            "emz1": [],
+            "emz1": [
+              {
+                "id": 81797573,
+                "name": "Angelechy Enlisted",
+                "pos": "atk"
+              }
+            ],
             "emz2": [],
             "gy": [],
             "mmz1": [
@@ -5111,12 +5122,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793700909636
+      "updatedAt": 1793700914196
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "d04fac53fbcfc0e17742bd1fe03b8e6700e53ad2"
+  "content_hash": "cc3b5ad43996499da97e5698b0fc42654fe35f0c"
 }
