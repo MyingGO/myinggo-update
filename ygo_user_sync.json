@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:59:44",
+  "updated_at": "2026-11-03 17:00:01",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4514,6 +4514,20 @@
           ],
           "x": 1528,
           "y": 976
+        },
+        {
+          "id": "nmw0io1fwqim",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B4: Search lên tay",
+          "cards": [
+            {
+              "id": 54577949,
+              "name": "Witness of the Ancient"
+            }
+          ],
+          "x": 2029,
+          "y": 976
         }
       ],
       "edges": [
@@ -4620,14 +4634,20 @@
           "mergeId": "mg_mw0inj9odl1",
           "bendX": 18,
           "bendY": 19
+        },
+        {
+          "from": "nmw0inc506a5",
+          "to": "nmw0io1fwqim",
+          "label": "Search lên tay",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793699982708
+      "updatedAt": 1793699999564
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "8dc146040257fbd114f32011cf09ff1210426d6a"
+  "content_hash": "48ddb3d972c4d32714ec52376811a36302d0eb77"
 }
