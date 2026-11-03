@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:06:57",
+  "updated_at": "2026-11-03 17:07:01",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4655,20 +4655,6 @@
           ],
           "x": 4486,
           "y": 1175
-        },
-        {
-          "id": "nmw0iwyho4ly",
-          "role": "step",
-          "starterId": "nmw0ik0okxmb",
-          "title": "B14: Úp bài (Set)",
-          "cards": [
-            {
-              "id": 81797573,
-              "name": "Angelechy Enlisted"
-            }
-          ],
-          "x": 5005,
-          "y": 975
         }
       ],
       "edges": [
@@ -4837,20 +4823,14 @@
           "to": "nmw0iw3rw5pl",
           "label": "Úp bài (Set)",
           "kind": "normal"
-        },
-        {
-          "from": "nmw0ivj2sxsn",
-          "to": "nmw0iwyho4ly",
-          "label": "Úp bài (Set)",
-          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700415644
+      "updatedAt": 1793700420525
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "d01bc60b90b2812945558f6a3f34d695b0ff6095"
+  "content_hash": "d773ab6a19f9f49748d3f4f94d355a4b1b365ecb"
 }
