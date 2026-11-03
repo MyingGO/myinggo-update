@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:02:16",
+  "updated_at": "2026-11-03 17:02:18",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4570,20 +4570,6 @@
           ],
           "x": 2983,
           "y": 1174
-        },
-        {
-          "id": "nmw0iqv5rlc4",
-          "role": "starter",
-          "starterId": "nmw0iqv5rlc4",
-          "title": "Starter 3: Lamb Token",
-          "cards": [
-            {
-              "id": 60764582,
-              "name": "Lamb Token"
-            }
-          ],
-          "x": 1506,
-          "y": 1208
         }
       ],
       "edges": [
@@ -4716,12 +4702,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700135101
+      "updatedAt": 1793700137052
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "86d33878d06d399c71a4d87eab4b4c548ff4b826"
+  "content_hash": "ada4ad611df3de11e4cb1fabe07699ba5151e940"
 }
