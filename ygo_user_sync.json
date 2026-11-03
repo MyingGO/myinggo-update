@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:15:07",
+  "updated_at": "2026-11-03 17:15:11",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4804,6 +4804,11 @@
           "title": "🏟️ Sân cuối (Starter 2)",
           "cards": [
             {
+              "id": 73218989,
+              "name": "Black-Winged Assault Dragon",
+              "pos": "atk"
+            },
+            {
               "id": 22850702,
               "name": "Chaos Angel",
               "pos": "atk"
@@ -4814,7 +4819,13 @@
             "emz1": [],
             "emz2": [],
             "gy": [],
-            "mmz1": [],
+            "mmz1": [
+              {
+                "id": 73218989,
+                "name": "Black-Winged Assault Dragon",
+                "pos": "atk"
+              }
+            ],
             "mmz2": [],
             "mmz3": [],
             "mmz4": [],
@@ -5100,12 +5111,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793700904284
+      "updatedAt": 1793700909636
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "b63b0b3127e8d37f79bdae88e13eca161f707a08"
+  "content_hash": "d04fac53fbcfc0e17742bd1fe03b8e6700e53ad2"
 }
