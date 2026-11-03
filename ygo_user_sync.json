@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:22:30",
+  "updated_at": "2026-11-03 16:22:36",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -1240,6 +1240,11 @@
               "id": 65961304,
               "name": "Kewl Tune B2B",
               "pos": "atk"
+            },
+            {
+              "id": 12381100,
+              "name": "Dragon Master Magia",
+              "pos": "atk"
             }
           ],
           "fieldZones": {
@@ -1255,7 +1260,13 @@
             "gy": [],
             "mmz1": [],
             "mmz2": [],
-            "mmz3": [],
+            "mmz3": [
+              {
+                "id": 12381100,
+                "name": "Dragon Master Magia",
+                "pos": "atk"
+              }
+            ],
             "mmz4": [],
             "mmz5": [],
             "stz1": [],
@@ -1844,7 +1855,7 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793697747933
+      "updatedAt": 1793697754213
     },
     {
       "id": "m1793634680168",
@@ -4057,5 +4068,5 @@
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "16583259d2dfc529446c214e0ad7bf26367cc165"
+  "content_hash": "83f762ff7d61486b2ce2965a80edec9cd416eb4b"
 }
