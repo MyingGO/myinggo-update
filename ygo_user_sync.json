@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:52:38",
+  "updated_at": "2026-11-03 16:52:48",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4373,6 +4373,11 @@
             {
               "id": 17782288,
               "name": "Angelechy Problem"
+            },
+            {
+              "id": 42410161,
+              "name": "Angelechy Shatranga",
+              "pos": "atk"
             }
           ],
           "fieldZones": {
@@ -4385,7 +4390,13 @@
             "emz1": [],
             "emz2": [],
             "gy": [],
-            "mmz1": [],
+            "mmz1": [
+              {
+                "id": 42410161,
+                "name": "Angelechy Shatranga",
+                "pos": "atk"
+              }
+            ],
             "mmz2": [],
             "mmz3": [],
             "mmz4": [],
@@ -4475,12 +4486,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793699557149
+      "updatedAt": 1793699565589
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "d48169f90d97fb7a07147da7f32e9d8c9bda1e7c"
+  "content_hash": "4c2cec7efd0eaecb345034422aacb7cc3f902318"
 }
