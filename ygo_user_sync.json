@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:51:23",
+  "updated_at": "2026-11-03 16:51:47",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4334,6 +4334,20 @@
           ],
           "x": 2589,
           "y": 432
+        },
+        {
+          "id": "nmw0idgbgpo8",
+          "role": "step",
+          "starterId": "nmw0i85rwxsm",
+          "title": "B9: Search lên tay",
+          "cards": [
+            {
+              "id": 48340269,
+              "name": "Angelechy Verdict"
+            }
+          ],
+          "x": 3090,
+          "y": 432
         }
       ],
       "edges": [
@@ -4386,14 +4400,20 @@
           "to": "nmw0icy6stq7",
           "label": "Úp bài (Set)",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0icy6stq7",
+          "to": "nmw0idgbgpo8",
+          "label": "Search lên tay",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793699482132
+      "updatedAt": 1793699505628
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "6e5d3c33112930e97903fc7a70b34b8778ac78e4"
+  "content_hash": "5f0ef56e289cba3d711fbbb24821c99b2080bb44"
 }
