@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:14:18",
+  "updated_at": "2026-11-03 17:14:57",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4795,6 +4795,34 @@
           ],
           "x": 3771,
           "y": 1685
+        },
+        {
+          "id": "fb_mw0j78xov7y",
+          "role": "endboard",
+          "isFieldBoard": true,
+          "starterId": "nmw0ik0okxmb",
+          "title": "🏟️ Sân cuối (Starter 2)",
+          "cards": [],
+          "fieldZones": {
+            "field": [],
+            "emz1": [],
+            "emz2": [],
+            "gy": [],
+            "mmz1": [],
+            "mmz2": [],
+            "mmz3": [],
+            "mmz4": [],
+            "mmz5": [],
+            "stz1": [],
+            "stz2": [],
+            "stz3": [],
+            "stz4": [],
+            "stz5": [],
+            "hand": []
+          },
+          "x": 38,
+          "y": 682,
+          "note": ""
         }
       ],
       "edges": [
@@ -5049,14 +5077,23 @@
           "kind": "normal",
           "fromPort": "right",
           "mergeId": "mg_mw0j6f64256"
+        },
+        {
+          "from": "nmw0ik0okxmb",
+          "to": "fb_mw0j78xov7y",
+          "fromPort": "left",
+          "toPort": "right",
+          "label": "Sân cuối / End Board",
+          "sub": "Trên sân & trên tay sau combo",
+          "kind": "endboard"
         }
       ],
-      "updatedAt": 1793700857164
+      "updatedAt": 1793700895740
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "0d232298c09a89682042a2c2107f1efc1e27b95c"
+  "content_hash": "b0359effe02fe30c39ad40c81f0ba29ab3520c63"
 }
