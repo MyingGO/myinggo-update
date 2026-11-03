@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:10:38",
+  "updated_at": "2026-11-03 17:10:41",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4753,6 +4753,20 @@
           ],
           "x": 4485,
           "y": 1605
+        },
+        {
+          "id": "nmw0j1rqce9f",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B21: Synchro Summon",
+          "cards": [
+            {
+              "id": 22850702,
+              "name": "Chaos Angel"
+            }
+          ],
+          "x": 3483,
+          "y": 1374
         }
       ],
       "edges": [
@@ -4963,14 +4977,20 @@
           "to": "nmw0j0n10a35",
           "label": "Úp bài (Set)",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0ir4uk0uq",
+          "to": "nmw0j1rqce9f",
+          "label": "Synchro Summon",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700636604
+      "updatedAt": 1793700640164
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "407c652cd6c6ce7e88a38e21f607a3f19cc5f61a"
+  "content_hash": "023baf4323bc2c5e29055525138cc098d675ed7d"
 }
