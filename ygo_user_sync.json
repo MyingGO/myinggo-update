@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:21:42",
+  "updated_at": "2026-11-03 16:21:55",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -1800,7 +1800,7 @@
       "id": "m1793634680168",
       "name_vi": "Combo: RED DRAGON ARCHFIEND",
       "name_en": "Combo: RED DRAGON ARCHFIEND",
-      "deckId": "d1793633684237",
+      "deckId": "d1793612044476",
       "nodes": [
         {
           "id": "nmvzfsbc3s9h",
@@ -3999,12 +3999,13 @@
           "sub": "Trên sân & trên tay sau combo",
           "kind": "endboard"
         }
-      ]
+      ],
+      "updatedAt": 1793697712901
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "14b96103d0b03266218a4d0033ebfaf3c26f6245"
+  "content_hash": "7cbea784339c2383bea02b7ea5a08eee221e471f"
 }
