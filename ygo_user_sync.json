@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:10:59",
+  "updated_at": "2026-11-03 17:11:01",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4982,23 +4982,26 @@
           "from": "nmw0ir4uk0uq",
           "to": "nmw0j1rqce9f",
           "label": "Synchro Summon",
-          "kind": "normal"
+          "kind": "normal",
+          "mergeId": "mg_mw0j26wc2j8",
+          "sub": ""
         },
         {
           "from": "nmw0inc506a5",
           "to": "nmw0j1rqce9f",
-          "label": "Hội tụ về nhánh chính",
+          "label": "Synchro Summon",
           "sub": "",
-          "kind": "converge",
-          "fromPort": "right"
+          "kind": "normal",
+          "fromPort": "right",
+          "mergeId": "mg_mw0j26wc2j8"
         }
       ],
-      "updatedAt": 1793700656876
+      "updatedAt": 1793700659820
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "24bc5a953618ed37cde75b949f20dbd48e1d6caf"
+  "content_hash": "37a8375fdde7739c22879e2063c164288fd52e87"
 }
