@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:01:54",
+  "updated_at": "2026-11-03 17:01:57",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4570,6 +4570,20 @@
           ],
           "x": 2983,
           "y": 1174
+        },
+        {
+          "id": "nmw0iqip3mzg",
+          "role": "starter",
+          "starterId": "nmw0iqip3mzg",
+          "title": "Starter 3: Eva Token",
+          "cards": [
+            {
+              "id": 64382840,
+              "name": "Eva Token"
+            }
+          ],
+          "x": 699,
+          "y": 1424
         }
       ],
       "edges": [
@@ -4702,12 +4716,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700112396
+      "updatedAt": 1793700115239
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "e729b1a2812ecdf6bd0ef915b2fa317ae5bfa925"
+  "content_hash": "77056dfb8118d9de232bf50d4d8df9967a0f2e86"
 }
