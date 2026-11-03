@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:25:10",
+  "updated_at": "2026-11-03 16:25:15",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -229,7 +229,7 @@
     {
       "id": "d1793697907945",
       "name": "DONEAngelechy",
-      "format": "ae",
+      "format": "none",
       "main": [
         54577949,
         54577949,
@@ -301,7 +301,7 @@
         97345699,
         97345699
       ],
-      "updatedAt": 1793697907946
+      "updatedAt": 1793697913517
     }
   ],
   "maps": [
@@ -4204,5 +4204,5 @@
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "b37d57008590566e0ce75cf93060728c84b38ca2"
+  "content_hash": "d8ba9ba9b44345c6417973779d36450c726bdade"
 }
