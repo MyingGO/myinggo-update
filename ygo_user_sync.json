@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:02:25",
+  "updated_at": "2026-11-03 17:02:35",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4583,7 +4583,8 @@
             }
           ],
           "x": 2982,
-          "y": 1374
+          "y": 1374,
+          "note": "LV 2"
         }
       ],
       "edges": [
@@ -4722,12 +4723,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700143948
+      "updatedAt": 1793700152239
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "bcf0b61a8a6baafaae6d3731764e6274c80eda52"
+  "content_hash": "215e80d01b30f992a3a36e2b11f06b7a5b151d8d"
 }
