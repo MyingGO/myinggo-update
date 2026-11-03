@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:10:41",
+  "updated_at": "2026-11-03 17:10:45",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4765,8 +4765,8 @@
               "name": "Chaos Angel"
             }
           ],
-          "x": 3483,
-          "y": 1374
+          "x": 2441,
+          "y": 1510
         }
       ],
       "edges": [
@@ -4985,12 +4985,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700640164
+      "updatedAt": 1793700644004
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "023baf4323bc2c5e29055525138cc098d675ed7d"
+  "content_hash": "c6fe6e5a73edf7533e7336f72af8c55f791ae0f0"
 }
