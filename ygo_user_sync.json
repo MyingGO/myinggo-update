@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:56:54",
+  "updated_at": "2026-11-03 16:57:05",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4472,6 +4472,20 @@
           ],
           "x": 699,
           "y": 682
+        },
+        {
+          "id": "nmw0ik904yck",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B1: Normal Summon",
+          "cards": [
+            {
+              "id": 24780790,
+              "name": "Chaospawn Bishop"
+            }
+          ],
+          "x": 1200,
+          "y": 682
         }
       ],
       "edges": [
@@ -4545,14 +4559,20 @@
           "label": "Sân cuối / End Board",
           "sub": "Trên sân & trên tay sau combo",
           "kind": "endboard"
+        },
+        {
+          "from": "nmw0ik0okxmb",
+          "to": "nmw0ik904yck",
+          "label": "Normal Summon",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793699811956
+      "updatedAt": 1793699822740
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "d7e6efb88c3ee6a12da922be49109a6188059ac8"
+  "content_hash": "fcb1984509de8a7c885906878d02b94f28fcc4ff"
 }
