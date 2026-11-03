@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:48:57",
+  "updated_at": "2026-11-03 16:49:16",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4278,6 +4278,20 @@
           ],
           "x": 1086,
           "y": 32
+        },
+        {
+          "id": "nmw0ia7n84hg",
+          "role": "step",
+          "starterId": "nmw0i85rwxsm",
+          "title": "B5: Search lên tay",
+          "cards": [
+            {
+              "id": 17782288,
+              "name": "Angelechy Problem"
+            }
+          ],
+          "x": 1587,
+          "y": 232
         }
       ],
       "edges": [
@@ -4306,14 +4320,20 @@
           "to": "nmw0i9s643yd",
           "label": "Synchro Summon",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0i9izo3dm",
+          "to": "nmw0ia7n84hg",
+          "label": "Search lên tay",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793699334364
+      "updatedAt": 1793699354420
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "24d7cf1573aa911e42663b276c6c94d2948cb884"
+  "content_hash": "dcd466e1a8769ce9fdb31a6c85a90cb9bf386175"
 }
