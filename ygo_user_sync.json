@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:00:18",
+  "updated_at": "2026-11-03 17:00:21",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4540,7 +4540,7 @@
               "name": "Witness of the Ancient"
             }
           ],
-          "x": 2501,
+          "x": 2482,
           "y": 974
         }
       ],
@@ -4662,12 +4662,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700016956
+      "updatedAt": 1793700020028
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "1b8124772073ff6a544c0aad1f7bfea0e2472982"
+  "content_hash": "3dce2d9ea472150bc956799448cabea0a4fb6d96"
 }
