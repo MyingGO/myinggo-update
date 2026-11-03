@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:11:41",
+  "updated_at": "2026-11-03 17:13:54",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4781,6 +4781,20 @@
           ],
           "x": 2935,
           "y": 1588
+        },
+        {
+          "id": "nmw0j5vj009j",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B23: Synchro Summon",
+          "cards": [
+            {
+              "id": 73218989,
+              "name": "Black-Winged Assault Dragon"
+            }
+          ],
+          "x": 4995,
+          "y": 1405
         }
       ],
       "edges": [
@@ -5018,14 +5032,20 @@
           "to": "nmw0j2t1g6fc",
           "label": "Trục xuất",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0j0en08uv",
+          "to": "nmw0j5vj009j",
+          "label": "Synchro Summon",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700690796
+      "updatedAt": 1793700831708
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "18bf1562236f4c1398f1ca40abed457eac55eb2a"
+  "content_hash": "20ec6900541aec59f53a8e3b842694ed589a3377"
 }
