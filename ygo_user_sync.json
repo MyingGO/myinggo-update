@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:15:33",
+  "updated_at": "2026-11-03 17:15:37",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4837,6 +4837,11 @@
               "id": 42410161,
               "name": "Angelechy Shatranga",
               "pos": "atk"
+            },
+            {
+              "id": 50284408,
+              "name": "Angelechy Castellan",
+              "pos": "atk"
             }
           ],
           "fieldZones": {
@@ -4895,7 +4900,13 @@
                 "pos": "atk"
               }
             ],
-            "stz5": [],
+            "stz5": [
+              {
+                "id": 50284408,
+                "name": "Angelechy Castellan",
+                "pos": "atk"
+              }
+            ],
             "hand": []
           },
           "x": 38,
@@ -5166,12 +5177,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793700932324
+      "updatedAt": 1793700935459
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "5d2ae9c5d914aa29d66fe448449bc87c5918863d"
+  "content_hash": "94f66a60d0abd9474397ca4b88b50c2af758f4f2"
 }
