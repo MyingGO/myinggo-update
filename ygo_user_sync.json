@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:15:29",
+  "updated_at": "2026-11-03 17:15:33",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4832,6 +4832,11 @@
               "id": 55393975,
               "name": "Angelechy Destrier",
               "pos": "atk"
+            },
+            {
+              "id": 42410161,
+              "name": "Angelechy Shatranga",
+              "pos": "atk"
             }
           ],
           "fieldZones": {
@@ -4883,7 +4888,13 @@
                 "pos": "atk"
               }
             ],
-            "stz4": [],
+            "stz4": [
+              {
+                "id": 42410161,
+                "name": "Angelechy Shatranga",
+                "pos": "atk"
+              }
+            ],
             "stz5": [],
             "hand": []
           },
@@ -5155,12 +5166,12 @@
           "kind": "endboard"
         }
       ],
-      "updatedAt": 1793700927844
+      "updatedAt": 1793700932324
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "47e1fbe033dd09241e01c38da7b13077848568df"
+  "content_hash": "5d2ae9c5d914aa29d66fe448449bc87c5918863d"
 }
