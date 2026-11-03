@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:52:02",
+  "updated_at": "2026-11-03 16:52:10",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4220,7 +4220,7 @@
               "name": "Angelechy Opposition"
             }
           ],
-          "x": 84,
+          "x": 699,
           "y": 32
         },
         {
@@ -4234,7 +4234,7 @@
               "name": "Angelechy Seneschal"
             }
           ],
-          "x": 585,
+          "x": 1200,
           "y": 32
         },
         {
@@ -4248,7 +4248,7 @@
               "name": "Angelechy Destrier"
             }
           ],
-          "x": 585,
+          "x": 1200,
           "y": 232
         },
         {
@@ -4262,7 +4262,7 @@
               "name": "Angelechy Strategy Score"
             }
           ],
-          "x": 1086,
+          "x": 1701,
           "y": 232
         },
         {
@@ -4276,7 +4276,7 @@
               "name": "Angelechy Shatranga"
             }
           ],
-          "x": 1086,
+          "x": 1701,
           "y": 32
         },
         {
@@ -4290,7 +4290,7 @@
               "name": "Angelechy Problem"
             }
           ],
-          "x": 1587,
+          "x": 2202,
           "y": 232
         },
         {
@@ -4304,7 +4304,7 @@
               "name": "Angelechy Enlisted"
             }
           ],
-          "x": 2088,
+          "x": 2703,
           "y": 232
         },
         {
@@ -4318,7 +4318,7 @@
               "name": "Angelechy Bastion"
             }
           ],
-          "x": 2088,
+          "x": 2703,
           "y": 432
         },
         {
@@ -4332,7 +4332,7 @@
               "name": "Angelechy Shatranga"
             }
           ],
-          "x": 2589,
+          "x": 3204,
           "y": 432
         },
         {
@@ -4346,7 +4346,7 @@
               "name": "Angelechy Verdict"
             }
           ],
-          "x": 3090,
+          "x": 3705,
           "y": 432
         },
         {
@@ -4360,8 +4360,36 @@
               "name": "Angelechy Verdict"
             }
           ],
-          "x": 3591,
+          "x": 4206,
           "y": 432
+        },
+        {
+          "id": "fb_mw0idxo40yz",
+          "role": "endboard",
+          "isFieldBoard": true,
+          "starterId": "nmw0i85rwxsm",
+          "title": "🏟️ Sân cuối (Starter 1)",
+          "cards": [],
+          "fieldZones": {
+            "field": [],
+            "emz1": [],
+            "emz2": [],
+            "gy": [],
+            "mmz1": [],
+            "mmz2": [],
+            "mmz3": [],
+            "mmz4": [],
+            "mmz5": [],
+            "stz1": [],
+            "stz2": [],
+            "stz3": [],
+            "stz4": [],
+            "stz5": [],
+            "hand": []
+          },
+          "x": 38,
+          "y": 32,
+          "note": ""
         }
       ],
       "edges": [
@@ -4426,14 +4454,23 @@
           "to": "nmw0idsgl0ru",
           "label": "Úp bài (Set)",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0i85rwxsm",
+          "to": "fb_mw0idxo40yz",
+          "fromPort": "left",
+          "toPort": "right",
+          "label": "Sân cuối / End Board",
+          "sub": "Trên sân & trên tay sau combo",
+          "kind": "endboard"
         }
       ],
-      "updatedAt": 1793699521365
+      "updatedAt": 1793699528116
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "f91829a42b9e171844d6966820215125bc2df79f"
+  "content_hash": "8c3046c8db7e33c8a019fe8fac670e6c851c8176"
 }
