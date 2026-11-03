@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 16:49:16",
+  "updated_at": "2026-11-03 16:50:14",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4292,6 +4292,20 @@
           ],
           "x": 1587,
           "y": 232
+        },
+        {
+          "id": "nmw0ibfwsaj4",
+          "role": "step",
+          "starterId": "nmw0i85rwxsm",
+          "title": "B6: Synchro Summon",
+          "cards": [
+            {
+              "id": 81797573,
+              "name": "Angelechy Enlisted"
+            }
+          ],
+          "x": 2088,
+          "y": 232
         }
       ],
       "edges": [
@@ -4326,14 +4340,20 @@
           "to": "nmw0ia7n84hg",
           "label": "Search lên tay",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0ia7n84hg",
+          "to": "nmw0ibfwsaj4",
+          "label": "Synchro Summon",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793699354420
+      "updatedAt": 1793699411788
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "dcd466e1a8769ce9fdb31a6c85a90cb9bf386175"
+  "content_hash": "4ccd55dad4cfe1f10eb32823f7d932bdec71e48b"
 }
