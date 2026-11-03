@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:09:41",
+  "updated_at": "2026-11-03 17:09:50",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4739,6 +4739,20 @@
           ],
           "x": 4494,
           "y": 1405
+        },
+        {
+          "id": "nmw0j0n10a35",
+          "role": "step",
+          "starterId": "nmw0ik0okxmb",
+          "title": "B20: Úp bài (Set)",
+          "cards": [
+            {
+              "id": 55393975,
+              "name": "Angelechy Destrier"
+            }
+          ],
+          "x": 4485,
+          "y": 1605
         }
       ],
       "edges": [
@@ -4943,14 +4957,20 @@
           "to": "nmw0j0en08uv",
           "label": "Synchro Summon",
           "kind": "normal"
+        },
+        {
+          "from": "nmw0izjj0rq8",
+          "to": "nmw0j0n10a35",
+          "label": "Úp bài (Set)",
+          "kind": "normal"
         }
       ],
-      "updatedAt": 1793700580900
+      "updatedAt": 1793700587412
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "63e2d4e17910e0fe7888984aad601f47bc25fb76"
+  "content_hash": "dd1e96ed9243c42bd86964e1524deef688cca4e4"
 }
