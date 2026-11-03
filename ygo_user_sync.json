@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03 17:11:31",
+  "updated_at": "2026-11-03 17:11:41",
   "built_decks": [
     {
       "id": "d1793591627626",
@@ -4779,8 +4779,8 @@
               "name": "Angelechy Seneschal"
             }
           ],
-          "x": 2942,
-          "y": 1510
+          "x": 2935,
+          "y": 1588
         }
       ],
       "edges": [
@@ -5020,12 +5020,12 @@
           "kind": "normal"
         }
       ],
-      "updatedAt": 1793700688516
+      "updatedAt": 1793700690796
     }
   ],
   "custom_acts": [],
   "art_prefs": {},
   "vi_custom": {},
   "deleted": {},
-  "content_hash": "1eeef79ead67474f4d73e21a9c19cf7ed6984248"
+  "content_hash": "18bf1562236f4c1398f1ca40abed457eac55eb2a"
 }
