@@ -1,6 +1,6 @@
 {
-  "version": "1.0.17",
-  "build": 17,
-  "updated_at": "2026-11-06 17:47:36",
-  "note": "Tích hợp Rclone tự động + Đa luồng Gigabit 900M"
+  "version": "1.0.18",
+  "build": 18,
+  "updated_at": "2026-11-06 18:00:42",
+  "note": "Tối ưu thứ tự file lớn trước + check 8 luồng ổn định"
 }
