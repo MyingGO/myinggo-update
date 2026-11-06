@@ -1,6 +1,6 @@
 {
-  "version": "1.0.20",
-  "build": 20,
-  "updated_at": "2026-11-06 19:07:19",
-  "note": "Tải y xì 100% file + Tự động nhớ và bỏ qua thư mục đã tải xong"
+  "version": "1.0.21",
+  "build": 21,
+  "updated_at": "2026-11-06 19:18:29",
+  "note": "Mở khóa giới hạn TPS + Chunk 128M + Fast-list + Buffer 32M tăng tốc Gigabit"
 }
