@@ -1,6 +1,6 @@
 {
-  "version": "1.0.21",
-  "build": 21,
-  "updated_at": "2026-11-06 19:18:29",
-  "note": "Mở khóa giới hạn TPS + Chunk 128M + Fast-list + Buffer 32M tăng tốc Gigabit"
+  "version": "1.0.22",
+  "build": 22,
+  "updated_at": "2026-11-06 19:31:32",
+  "note": "Khôi phục cấu hình chống bóp băng thông Google 403 + Mixed 90/10 ưu tiên tốc độ file lớn"
 }
