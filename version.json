@@ -1,6 +1,6 @@
 {
-  "version": "1.0.23",
-  "build": 23,
-  "updated_at": "2026-11-06 23:26:27",
-  "note": "Chrome Direct Engine: Bỏ qua quét Drive cho thư mục mới (--no-check-dest) + Chống lỗi tải lặp 200% dung lượng"
+  "version": "1.0.25",
+  "build": 25,
+  "updated_at": "2026-11-07 00:10:51",
+  "note": "Fix triệt để lỗi đứng 100% Đang quét file ở cuối thư mục (Max-Backlog 50000 + Fast-List + Timeout 30s)"
 }
