@@ -1,6 +1,6 @@
 {
-  "version": "1.0.25",
-  "build": 25,
-  "updated_at": "2026-11-07 00:10:51",
-  "note": "Fix triệt để lỗi đứng 100% Đang quét file ở cuối thư mục (Max-Backlog 50000 + Fast-List + Timeout 30s)"
+  "version": "1.0.26",
+  "build": 26,
+  "updated_at": "2026-11-07 01:06:11",
+  "note": "Động cơ Liên Thư Mục 24-32 luồng (Không chờ lẻ 1 file cuối 1.8MB/s + Timeout 10m chống đứt file 2.5GB ở 100%)"
 }
