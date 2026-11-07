@@ -1,6 +1,6 @@
 {
-  "version": "1.0.31",
-  "build": 31,
-  "updated_at": "2026-11-07 11:41:37",
-  "note": "v1.0.31: Tối ưu Rclone API đẩy toàn bộ file lớn (.mp4) ngay từ 0% trong 1 lượt (20 luồng HTTP/1.1 128M), triệt tiêu hiện tượng rớt xuống 4MB/s ở 85%"
+  "version": "1.0.32",
+  "build": 32,
+  "updated_at": "2026-11-07 14:39:15",
+  "note": "v1.0.32: Chạy gối đầu 3 thư mục FD song song (Không bao giờ chờ lẻ 1 file .mp4 cuối) + Ép IPv4 thuần (--bind=0.0.0.0) + Chống báo ảo 100%"
 }
