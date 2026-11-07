@@ -1,6 +1,6 @@
 {
-  "version": "1.0.26",
-  "build": 26,
-  "updated_at": "2026-11-07 01:06:11",
-  "note": "Động cơ Liên Thư Mục 24-32 luồng (Không chờ lẻ 1 file cuối 1.8MB/s + Timeout 10m chống đứt file 2.5GB ở 100%)"
+  "version": "1.0.27",
+  "build": 27,
+  "updated_at": "2026-11-07 09:59:29",
+  "note": "Build lại Tải lên Drive v1.0.27: Chuẩn 1-4 luồng như Chrome Web + Hỗ trợ Google Drive Desktop + Cảnh báo hạn mức 750GB/ngày"
 }
