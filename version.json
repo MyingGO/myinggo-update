@@ -1,6 +1,6 @@
 {
-  "version": "1.0.30",
-  "build": 30,
-  "updated_at": "2026-11-07 10:57:41",
-  "note": "v1.0.30: Hỗ trợ điền cả Tên thư mục HOẶC dán trực tiếp Link chia sẻ Google Drive (https://drive.google.com/drive/folders/...)"
+  "version": "1.0.31",
+  "build": 31,
+  "updated_at": "2026-11-07 11:41:37",
+  "note": "v1.0.31: Tối ưu Rclone API đẩy toàn bộ file lớn (.mp4) ngay từ 0% trong 1 lượt (20 luồng HTTP/1.1 128M), triệt tiêu hiện tượng rớt xuống 4MB/s ở 85%"
 }
