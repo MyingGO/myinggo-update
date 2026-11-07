@@ -1,6 +1,6 @@
 {
-  "version": "1.0.29",
-  "build": 29,
-  "updated_at": "2026-11-07 10:51:00",
-  "note": "v1.0.29: Hiển thị rõ Tên & Email tài khoản Google Drive đang kết nối + Bộ nhớ đổi nhanh tài khoản đã lưu"
+  "version": "1.0.30",
+  "build": 30,
+  "updated_at": "2026-11-07 10:57:41",
+  "note": "v1.0.30: Hỗ trợ điền cả Tên thư mục HOẶC dán trực tiếp Link chia sẻ Google Drive (https://drive.google.com/drive/folders/...)"
 }
