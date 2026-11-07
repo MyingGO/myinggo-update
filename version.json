@@ -1,6 +1,6 @@
 {
-  "version": "1.0.28",
-  "build": 28,
-  "updated_at": "2026-11-07 10:23:12",
-  "note": "v1.0.28: Thêm ô điền/chọn đường dẫn đích ổ Google Drive Desktop + Nút chọn Chuyển từng file 1 hoặc Chuyển toàn bộ file cùng lúc"
+  "version": "1.0.29",
+  "build": 29,
+  "updated_at": "2026-11-07 10:51:00",
+  "note": "v1.0.29: Hiển thị rõ Tên & Email tài khoản Google Drive đang kết nối + Bộ nhớ đổi nhanh tài khoản đã lưu"
 }
