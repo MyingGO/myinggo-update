@@ -1,6 +1,6 @@
 {
-  "version": "1.0.32",
-  "build": 32,
-  "updated_at": "2026-11-07 14:39:15",
-  "note": "v1.0.32: Chạy gối đầu 3 thư mục FD song song (Không bao giờ chờ lẻ 1 file .mp4 cuối) + Ép IPv4 thuần (--bind=0.0.0.0) + Chống báo ảo 100%"
+  "version": "1.0.34",
+  "build": 34,
+  "updated_at": "2026-11-10 17:00:44",
+  "note": "Cập nhật v1.0.34"
 }
